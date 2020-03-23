@@ -8636,22 +8636,22 @@ NS Package M08A</description>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="CV3" library="joakim" deviceset="MA01-1J" device="N"/>
-<part name="CV1" library="joakim" deviceset="MA01-1J" device="N"/>
-<part name="CV2" library="joakim" deviceset="MA01-1J" device="N"/>
-<part name="CV4" library="joakim" deviceset="MA01-1J" device="N"/>
-<part name="IN3" library="joakim" deviceset="MA01-1J" device="N"/>
-<part name="IN1" library="joakim" deviceset="MA01-1J" device="N"/>
-<part name="IN2" library="joakim" deviceset="MA01-1J" device="N"/>
-<part name="IN4" library="joakim" deviceset="MA01-1J" device="N"/>
-<part name="OUT1" library="joakim" deviceset="MA01-1J" device="N"/>
-<part name="OUT3" library="joakim" deviceset="MA01-1J" device="N"/>
-<part name="OUT4" library="joakim" deviceset="MA01-1J" device="N"/>
-<part name="OUT2" library="joakim" deviceset="MA01-1J" device="N"/>
+<part name="CV3" library="joakim" deviceset="MA01-1J" device="P"/>
+<part name="CV1" library="joakim" deviceset="MA01-1J" device="P"/>
+<part name="CV2" library="joakim" deviceset="MA01-1J" device="P"/>
+<part name="CV4" library="joakim" deviceset="MA01-1J" device="P"/>
+<part name="IN3" library="joakim" deviceset="MA01-1J" device="P"/>
+<part name="IN1" library="joakim" deviceset="MA01-1J" device="P"/>
+<part name="IN2" library="joakim" deviceset="MA01-1J" device="P"/>
+<part name="IN4" library="joakim" deviceset="MA01-1J" device="P"/>
+<part name="OUT1" library="joakim" deviceset="MA01-1J" device="P"/>
+<part name="OUT3" library="joakim" deviceset="MA01-1J" device="P"/>
+<part name="OUT4" library="joakim" deviceset="MA01-1J" device="P"/>
+<part name="OUT2" library="joakim" deviceset="MA01-1J" device="P"/>
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF"/>
-<part name="+15V" library="joakim" deviceset="MA01-1J" device="N"/>
-<part name="GND" library="joakim" deviceset="MA01-1J" device="N"/>
-<part name="-15V" library="joakim" deviceset="MA01-1J" device="N"/>
+<part name="+15V" library="joakim" deviceset="MA01-1J" device="P"/>
+<part name="GND" library="joakim" deviceset="MA01-1J" device="P"/>
+<part name="-15V" library="joakim" deviceset="MA01-1J" device="P"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+15V" device=""/>
 <part name="P-2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-15V" device=""/>
