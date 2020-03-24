@@ -2630,10 +2630,10 @@ Based on the following sources:
 <attribute name="VALUE" x="4.445" y="10.795" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="U$1" library="joakim" package="XONIK_LOGO_18" value="" x="29.5275" y="8.3111" smashed="yes" rot="MR0"/>
-<element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD323-R" package3d_urn="urn:adsk.eagle:package:43437/1" value="B5817" x="20.32" y="9.2075" smashed="yes" rot="R90">
-<attribute name="NAME" x="19.5375" y="11.16" size="0.8128" layer="25" font="vector"/>
-<attribute name="POPULARITY" value="4" x="20.32" y="9.2075" size="0.8128" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="VALUE" x="22.62" y="8.1075" size="1.27" layer="27" rot="R90"/>
+<element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD323-R" package3d_urn="urn:adsk.eagle:package:43437/1" value="B5817" x="20.32" y="9.525" smashed="yes" rot="R90">
+<attribute name="NAME" x="19.5375" y="11.4775" size="0.8128" layer="25" font="vector"/>
+<attribute name="POPULARITY" value="4" x="20.32" y="9.525" size="0.8128" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="VALUE" x="22.62" y="8.425" size="1.27" layer="27" rot="R90"/>
 </element>
 </elements>
 <signals>
@@ -2714,11 +2714,11 @@ Based on the following sources:
 <wire x1="21.9075" y1="12.065" x2="21.9075" y2="12.7" width="0.3048" layer="1"/>
 <wire x1="21.9075" y1="12.7" x2="22.86" y2="13.6525" width="0.3048" layer="1"/>
 <via x="22.86" y="14.9225" extent="1-16" drill="0.3302"/>
-<wire x1="18.7325" y1="8.255" x2="19.685" y2="7.3025" width="0.3048" layer="1"/>
+<wire x1="18.7325" y1="8.255" x2="19.3675" y2="7.62" width="0.3048" layer="1"/>
 <wire x1="22.86" y1="13.6525" x2="22.86" y2="14.9225" width="0.3048" layer="1"/>
 <contactref element="D1" pad="C"/>
-<wire x1="19.685" y1="7.3025" x2="20.32" y2="7.3025" width="0.3048" layer="1"/>
-<wire x1="20.32" y1="7.3025" x2="20.32" y2="8.1075" width="0.3048" layer="1"/>
+<wire x1="19.3675" y1="7.62" x2="20.32" y2="7.62" width="0.3048" layer="1"/>
+<wire x1="20.32" y1="7.62" x2="20.32" y2="8.425" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R8" pad="1"/>
@@ -2925,11 +2925,7 @@ Based on the following sources:
 <wire x1="39.6875" y1="9.8425" x2="34.29" y2="9.8425" width="0.508" layer="1"/>
 <wire x1="34.29" y1="9.525" x2="31.75" y2="9.525" width="0.508" layer="1"/>
 <wire x1="31.75" y1="9.525" x2="25.7175" y2="9.525" width="0.508" layer="1"/>
-<wire x1="25.7175" y1="9.525" x2="22.5425" y2="9.525" width="0.508" layer="1"/>
-<wire x1="22.5425" y1="9.525" x2="22.225" y2="9.2075" width="0.508" layer="1"/>
-<wire x1="22.225" y1="9.2075" x2="18.7325" y2="9.2075" width="0.508" layer="1"/>
-<wire x1="18.7325" y1="9.2075" x2="18.415" y2="9.525" width="0.508" layer="1"/>
-<wire x1="18.415" y1="9.525" x2="12.065" y2="9.525" width="0.508" layer="1"/>
+<wire x1="25.7175" y1="9.525" x2="12.065" y2="9.525" width="0.508" layer="1"/>
 <wire x1="12.065" y1="9.525" x2="8.89" y2="9.525" width="0.508" layer="1"/>
 <wire x1="8.89" y1="9.525" x2="6.35" y2="9.525" width="0.508" layer="1"/>
 <wire x1="6.35" y1="9.525" x2="4.7625" y2="9.525" width="0.508" layer="1"/>
@@ -2965,11 +2961,11 @@ Based on the following sources:
 <wire x1="35.8775" y1="10.795" x2="31.75" y2="10.795" width="0.508" layer="1"/>
 <contactref element="C12" pad="1"/>
 <wire x1="31.75" y1="10.795" x2="29.5275" y2="10.795" width="0.508" layer="1"/>
-<wire x1="29.5275" y1="10.795" x2="22.5425" y2="10.795" width="0.508" layer="1"/>
-<wire x1="22.5425" y1="10.795" x2="21.9075" y2="11.43" width="0.508" layer="1"/>
-<wire x1="20.32" y1="11.43" x2="18.7325" y2="11.43" width="0.508" layer="1"/>
-<wire x1="18.7325" y1="11.43" x2="18.0975" y2="10.795" width="0.508" layer="1"/>
-<wire x1="18.0975" y1="10.795" x2="6.35" y2="10.795" width="0.508" layer="1"/>
+<wire x1="29.5275" y1="10.795" x2="21.9075" y2="10.795" width="0.508" layer="1"/>
+<wire x1="21.9075" y1="10.795" x2="21.2725" y2="11.43" width="0.508" layer="1"/>
+<wire x1="20.32" y1="11.43" x2="19.3675" y2="11.43" width="0.508" layer="1"/>
+<wire x1="19.3675" y1="11.43" x2="18.7325" y2="10.795" width="0.508" layer="1"/>
+<wire x1="18.7325" y1="10.795" x2="6.35" y2="10.795" width="0.508" layer="1"/>
 <wire x1="6.35" y1="10.795" x2="0.9525" y2="10.795" width="0.508" layer="1"/>
 <wire x1="29.5275" y1="10.795" x2="30.48" y2="10.795" width="0.508" layer="16"/>
 <wire x1="31.115" y1="10.16" x2="30.48" y2="10.795" width="0.508" layer="16"/>
@@ -2991,8 +2987,8 @@ Based on the following sources:
 <wire x1="34.925" y1="4.7625" x2="33.3375" y2="3.175" width="0.508" layer="16"/>
 <via x="35.8775" y="10.795" extent="1-16" drill="0.3302"/>
 <contactref element="D1" pad="A"/>
-<wire x1="20.32" y1="10.3075" x2="20.32" y2="11.43" width="0.508" layer="1"/>
-<wire x1="21.9075" y1="11.43" x2="20.32" y2="11.43" width="0.508" layer="1"/>
+<wire x1="20.32" y1="10.625" x2="20.32" y2="11.43" width="0.508" layer="1"/>
+<wire x1="21.2725" y1="11.43" x2="20.32" y2="11.43" width="0.508" layer="1"/>
 </signal>
 <signal name="OUT4">
 <contactref element="C3" pad="2"/>
