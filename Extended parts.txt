@@ -4,6 +4,5 @@ Extended:
 499R
 B5817WS
 
-
 Missing
 TL072 (IC1, IC2)
