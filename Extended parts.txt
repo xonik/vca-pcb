@@ -1,0 +1,9 @@
+Extended:
+30k
+560pF ????
+499R
+B5817WS
+
+
+Missing
+TL072 (IC1, IC2)
