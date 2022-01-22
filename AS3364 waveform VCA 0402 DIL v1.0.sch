@@ -8958,8 +8958,8 @@ Sub1/2 CVs are 0-5V, divided down to 2V</text>
 <attribute name="VALUE" x="5.08" y="22.86" size="1.778" layer="96"/>
 </instance>
 <instance part="C1" gate="G$1" x="106.68" y="25.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="110.236" y="19.939" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="110.236" y="22.479" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="102.616" y="27.559" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="102.616" y="25.019" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
