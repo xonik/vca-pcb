@@ -8,20 +8,20 @@
 </settings>
 <grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -34,10 +34,10 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -46,8 +46,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -170,7 +170,7 @@
 <text x="17.62125" y="4.28625" size="1.27" layer="26" font="vector" rot="MR0">I3</text>
 <text x="20.16125" y="4.28625" size="1.27" layer="26" font="vector" rot="MR0">I4</text>
 <text x="25.24125" y="4.28625" size="1.27" layer="26" font="vector" rot="MR0">BU</text>
-<text x="27.78125" y="4.28625" size="1.27" layer="26" font="vector" rot="MR0">MX</text>
+<text x="28.09875" y="4.28625" size="1.27" layer="26" font="vector" rot="MR0">MX</text>
 <text x="31.4325" y="4.7625" size="1.27" layer="26" font="vector" rot="MR90">+12v</text>
 <text x="28.8925" y="4.7625" size="1.27" layer="26" font="vector" rot="MR90">-12v</text>
 <text x="33.9725" y="4.7625" size="1.27" layer="26" font="vector" rot="MR90">AGND</text>
@@ -201,12 +201,12 @@ mixer</text>
 <text x="10.95375" y="4.28625" size="1.27" layer="25" font="vector">C3</text>
 <text x="13.49375" y="4.28625" size="1.27" layer="25" font="vector">C4</text>
 <text x="16.03375" y="4.28625" size="1.27" layer="25" font="vector">I3</text>
-<text x="18.57375" y="4.28625" size="1.27" layer="25" font="vector">I4</text>
 <text x="21.43125" y="4.28625" size="1.27" layer="25" font="vector">O</text>
 <text x="26.19375" y="4.28625" size="1.27" layer="25" font="vector">MX</text>
 <text x="23.65375" y="4.28625" size="1.27" layer="25" font="vector">BU</text>
 <text x="22.38375" y="4.28625" size="1.27" layer="26" font="vector" rot="MR0">O</text>
 <text x="8.89" y="15.875" size="0.8128" layer="25" font="vector" rot="R180">AS3364</text>
+<text x="18.57375" y="4.28625" size="1.27" layer="25" font="vector">I4</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -1310,12 +1310,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <library name="joakim">
 <description>Joakim Tysseng's custom components and packages</description>
 <packages>
-<package name="SIP-PIN01-1J">
-<pad name="1" x="0" y="0" drill="1.016" shape="offset" rot="R270"/>
-<text x="-1.27" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.27" y="-4.191" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-</package>
 <package name="SO08J">
 <description>&lt;b&gt;Small Outline Package 8&lt;/b&gt;&lt;br&gt;
 NS Package M08A</description>
@@ -2211,6 +2205,30 @@ NS Package M08A</description>
 <text x="-10.5664" y="-2.794" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-8.89" y="-0.9652" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 </package>
+<package name="SIP-PIN07-1J">
+<wire x1="-8.255" y1="1.27" x2="-8.89" y2="0.635" width="0.1524" layer="21"/>
+<pad name="1" x="-7.62" y="0" drill="1.016" shape="offset" rot="R270"/>
+<pad name="2" x="-5.08" y="0" drill="1.016" shape="offset" rot="R270"/>
+<text x="-8.89" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-8.89" y="-4.191" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-5.334" y1="-0.254" x2="-4.826" y2="0.254" layer="51"/>
+<rectangle x1="-7.874" y1="-0.254" x2="-7.366" y2="0.254" layer="51"/>
+<polygon width="0.1524" layer="21">
+<vertex x="-8.89" y="0.635"/>
+<vertex x="-8.89" y="1.27"/>
+<vertex x="-8.255" y="1.27"/>
+</polygon>
+<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
+<pad name="3" x="-2.54" y="0" drill="1.016" shape="offset" rot="R270"/>
+<pad name="4" x="0" y="0" drill="1.016" shape="offset" rot="R270"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<pad name="5" x="2.54" y="0" drill="1.016" shape="offset" rot="R270"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<pad name="6" x="5.08" y="0" drill="1.016" shape="offset" rot="R270"/>
+<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
+<pad name="7" x="7.62" y="0" drill="1.016" shape="offset" rot="R270"/>
+<rectangle x1="7.366" y1="-0.254" x2="7.874" y2="0.254" layer="51"/>
+</package>
 </packages>
 </library>
 </libraries>
@@ -2476,50 +2494,11 @@ NS Package M08A</description>
 <attribute name="SPICEPREFIX" value="R" x="3.4925" y="7.3025" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="1.5875" y="7.9375" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="CV3" library="joakim" package="SIP-PIN01-1J" value="" x="11.7475" y="3.175" smashed="yes">
-<attribute name="VALUE" x="9.2075" y="0.254" size="1.27" layer="27" ratio="10"/>
-</element>
-<element name="CV1" library="joakim" package="SIP-PIN01-1J" value="" x="6.6675" y="3.175" smashed="yes">
-<attribute name="VALUE" x="4.1275" y="0.254" size="1.27" layer="27" ratio="10"/>
-</element>
-<element name="CV2" library="joakim" package="SIP-PIN01-1J" value="" x="9.2075" y="3.175" smashed="yes">
-<attribute name="VALUE" x="6.6675" y="0.254" size="1.27" layer="27" ratio="10"/>
-</element>
-<element name="CV4" library="joakim" package="SIP-PIN01-1J" value="" x="14.2875" y="3.175" smashed="yes">
-<attribute name="VALUE" x="11.7475" y="0.254" size="1.27" layer="27" ratio="10"/>
-</element>
-<element name="IN3" library="joakim" package="SIP-PIN01-1J" value="" x="16.8275" y="3.175" smashed="yes">
-<attribute name="VALUE" x="14.2875" y="0.254" size="1.27" layer="27" ratio="10"/>
-</element>
-<element name="IN1" library="joakim" package="SIP-PIN01-1J" value="" x="1.5875" y="3.175" smashed="yes">
-<attribute name="VALUE" x="-0.9525" y="0.254" size="1.27" layer="27" ratio="10"/>
-</element>
-<element name="IN2" library="joakim" package="SIP-PIN01-1J" value="" x="4.1275" y="3.175" smashed="yes">
-<attribute name="VALUE" x="1.5875" y="0.254" size="1.27" layer="27" ratio="10"/>
-</element>
-<element name="IN4" library="joakim" package="SIP-PIN01-1J" value="" x="19.3675" y="3.175" smashed="yes">
-<attribute name="VALUE" x="16.8275" y="0.254" size="1.27" layer="27" ratio="10"/>
-</element>
-<element name="BUS" library="joakim" package="SIP-PIN01-1J" value="" x="24.4475" y="3.175" smashed="yes">
-<attribute name="VALUE" x="21.9075" y="0.254" size="1.27" layer="27" ratio="10"/>
-</element>
-<element name="OUT" library="joakim" package="SIP-PIN01-1J" value="" x="21.9075" y="3.175" smashed="yes">
-<attribute name="VALUE" x="19.3675" y="0.254" size="1.27" layer="27" ratio="10"/>
-</element>
 <element name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF" x="35.2425" y="10.16" smashed="yes" rot="R270">
 <attribute name="NAME" x="35.56" y="12.3825" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="POPULARITY" value="18" x="35.2425" y="10.16" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="35.2425" y="10.16" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="33.3375" y="10.795" size="1.27" layer="27" rot="R270"/>
-</element>
-<element name="+12V" library="joakim" package="SIP-PIN01-1J" value="" x="32.0675" y="3.175" smashed="yes">
-<attribute name="VALUE" x="29.5275" y="0.254" size="1.27" layer="27" ratio="10"/>
-</element>
-<element name="GND" library="joakim" package="SIP-PIN01-1J" value="" x="34.6075" y="3.175" smashed="yes">
-<attribute name="VALUE" x="32.0675" y="0.254" size="1.27" layer="27" ratio="10"/>
-</element>
-<element name="-12V" library="joakim" package="SIP-PIN01-1J" value="" x="29.5275" y="3.175" smashed="yes">
-<attribute name="VALUE" x="26.9875" y="0.254" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="IC1" library="joakim" package="SO08J" value="TL072JD" x="31.75" y="10.16" smashed="yes" rot="R180">
 <attribute name="NAME" x="31.115" y="14.9225" size="0.8128" layer="25" font="vector"/>
@@ -2535,13 +2514,15 @@ NS Package M08A</description>
 <element name="DA2" library="joakim" package="DIL16J" value="AS3364D" x="14.2875" y="10.16" smashed="yes">
 <attribute name="VALUE" x="5.3975" y="9.1948" size="1.778" layer="27" ratio="10"/>
 </element>
-<element name="MIX" library="joakim" package="SIP-PIN01-1J" value="" x="26.9875" y="3.175" smashed="yes">
-<attribute name="VALUE" x="25.7175" y="-1.016" size="1.27" layer="27" ratio="10"/>
+<element name="U$2" library="joakim" package="SIP-PIN07-1J" value="MA07-1JP" x="26.9875" y="3.175" smashed="yes">
+<attribute name="VALUE" x="18.0975" y="-1.016" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="U$3" library="joakim" package="SIP-PIN07-1J" value="MA07-1JP" x="9.2075" y="3.175" smashed="yes">
+<attribute name="VALUE" x="0.3175" y="-1.016" size="1.27" layer="27" ratio="10"/>
 </element>
 </elements>
 <signals>
 <signal name="GND">
-<contactref element="GND" pad="1"/>
 <contactref element="C10" pad="1"/>
 <contactref element="C9" pad="2"/>
 <contactref element="IC1" pad="3"/>
@@ -2594,19 +2575,20 @@ NS Package M08A</description>
 <wire x1="23.1775" y1="6.35" x2="25.0825" y2="6.35" width="0.508" layer="16"/>
 <contactref element="IC1" pad="5"/>
 <wire x1="29.845" y1="7.56" x2="29.845" y2="6.0325" width="0.508" layer="1"/>
+<contactref element="U$2" pad="7"/>
 </signal>
 <signal name="BUS">
 <contactref element="DA2" pad="4"/>
 <contactref element="DA2" pad="5"/>
 <contactref element="DA2" pad="13"/>
 <contactref element="DA2" pad="12"/>
-<contactref element="BUS" pad="1"/>
 <wire x1="13.0175" y1="6.35" x2="15.5575" y2="6.35" width="0.3048" layer="1"/>
 <wire x1="13.0175" y1="13.97" x2="15.5575" y2="13.97" width="0.3048" layer="1"/>
 <wire x1="13.0175" y1="6.35" x2="13.0175" y2="13.97" width="0.3048" layer="16"/>
 <wire x1="15.5575" y1="6.35" x2="17.145" y2="4.7625" width="0.3048" layer="1"/>
 <wire x1="17.145" y1="4.7625" x2="22.86" y2="4.7625" width="0.3048" layer="1"/>
 <wire x1="22.86" y1="4.7625" x2="24.4475" y2="3.175" width="0.3048" layer="1"/>
+<contactref element="U$2" pad="3"/>
 </signal>
 <signal name="IN3">
 <wire x1="16.8275" y1="3.175" x2="19.3675" y2="5.715" width="0.3048" layer="16"/>
@@ -2614,13 +2596,13 @@ NS Package M08A</description>
 <wire x1="19.3675" y1="5.715" x2="19.3675" y2="6.985" width="0.3048" layer="16"/>
 <contactref element="DA2" pad="10"/>
 <wire x1="20.6375" y1="8.255" x2="20.6375" y2="13.97" width="0.3048" layer="16"/>
-<contactref element="IN3" pad="1"/>
+<contactref element="U$3" pad="7"/>
 </signal>
 <signal name="IN4">
 <wire x1="19.3675" y1="3.175" x2="20.6375" y2="4.445" width="0.3048" layer="16"/>
 <contactref element="DA2" pad="7"/>
 <wire x1="20.6375" y1="6.35" x2="20.6375" y2="4.445" width="0.3048" layer="16"/>
-<contactref element="IN4" pad="1"/>
+<contactref element="U$2" pad="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="R13" pad="2"/>
@@ -2632,7 +2614,6 @@ NS Package M08A</description>
 <signal name="+12V">
 <contactref element="C10" pad="2"/>
 <contactref element="C11" pad="2"/>
-<contactref element="+12V" pad="1"/>
 <contactref element="IC1" pad="8"/>
 <wire x1="25.0825" y1="9.525" x2="33.655" y2="9.525" width="0.508" layer="1"/>
 <wire x1="25.0825" y1="9.525" x2="19.685" y2="9.525" width="0.508" layer="1"/>
@@ -2647,11 +2628,11 @@ NS Package M08A</description>
 <wire x1="33.655" y1="9.525" x2="35.2275" y2="9.525" width="0.508" layer="1"/>
 <wire x1="35.2275" y1="9.525" x2="35.2425" y2="9.51" width="0.508" layer="1"/>
 <wire x1="33.655" y1="4.7625" x2="32.0675" y2="3.175" width="0.508" layer="1"/>
+<contactref element="U$2" pad="6"/>
 </signal>
 <signal name="-12V">
 <contactref element="C9" pad="1"/>
 <contactref element="C11" pad="1"/>
-<contactref element="-12V" pad="1"/>
 <contactref element="IC1" pad="4"/>
 <wire x1="29.845" y1="12.76" x2="29.845" y2="10.795" width="0.508" layer="1"/>
 <wire x1="29.845" y1="10.795" x2="25.0825" y2="10.795" width="0.508" layer="1"/>
@@ -2670,6 +2651,7 @@ NS Package M08A</description>
 <wire x1="35.2425" y1="11.7475" x2="35.2425" y2="10.81" width="0.508" layer="1"/>
 <wire x1="35.2275" y1="10.795" x2="35.2425" y2="10.81" width="0.508" layer="1"/>
 <wire x1="29.845" y1="10.795" x2="35.2275" y2="10.795" width="0.508" layer="1"/>
+<contactref element="U$2" pad="5"/>
 </signal>
 <signal name="NC1">
 <contactref element="IC1" pad="7"/>
@@ -2679,7 +2661,6 @@ NS Package M08A</description>
 <signal name="OUT">
 <contactref element="C2" pad="2"/>
 <contactref element="R6" pad="2"/>
-<contactref element="OUT" pad="1"/>
 <contactref element="IC1" pad="1"/>
 <wire x1="27.305" y1="11.7475" x2="26.67" y2="11.7475" width="0.3048" layer="1"/>
 <wire x1="26.67" y1="11.7475" x2="26.67" y2="12.5175" width="0.3048" layer="1"/>
@@ -2696,17 +2677,17 @@ NS Package M08A</description>
 <wire x1="26.3525" y1="4.7625" x2="23.495" y2="4.7625" width="0.3048" layer="16"/>
 <wire x1="21.9075" y1="3.175" x2="23.495" y2="4.7625" width="0.3048" layer="16"/>
 <wire x1="27.6225" y1="6.0325" x2="26.3525" y2="4.7625" width="0.3048" layer="16"/>
+<contactref element="U$2" pad="2"/>
 </signal>
 <signal name="CV1">
-<contactref element="CV1" pad="1"/>
 <contactref element="R2" pad="1"/>
 <wire x1="9.66" y1="12.065" x2="8.89" y2="12.065" width="0.3048" layer="1"/>
 <via x="8.89" y="12.065" extent="1-16" drill="0.35"/>
 <wire x1="8.89" y1="12.065" x2="6.6675" y2="9.8425" width="0.3048" layer="16"/>
 <wire x1="6.6675" y1="9.8425" x2="6.6675" y2="3.175" width="0.3048" layer="16"/>
+<contactref element="U$3" pad="3"/>
 </signal>
 <signal name="CV3">
-<contactref element="CV3" pad="1"/>
 <contactref element="R1" pad="1"/>
 <wire x1="11.7475" y1="3.175" x2="14.2875" y2="5.715" width="0.3048" layer="16"/>
 <wire x1="14.2875" y1="5.715" x2="14.2875" y2="6.985" width="0.3048" layer="16"/>
@@ -2714,9 +2695,9 @@ NS Package M08A</description>
 <wire x1="19.3675" y1="12.065" x2="19.685" y2="12.065" width="0.3048" layer="16"/>
 <via x="19.685" y="12.065" extent="1-16" drill="0.35"/>
 <wire x1="19.685" y1="12.065" x2="18.915" y2="12.065" width="0.3048" layer="1"/>
+<contactref element="U$3" pad="5"/>
 </signal>
 <signal name="CV4">
-<contactref element="CV4" pad="1"/>
 <contactref element="R4" pad="1"/>
 <wire x1="18.915" y1="8.255" x2="19.3675" y2="8.255" width="0.3048" layer="1"/>
 <wire x1="19.685" y1="8.5725" x2="19.3675" y2="8.255" width="0.3048" layer="1"/>
@@ -2725,13 +2706,14 @@ NS Package M08A</description>
 <wire x1="18.415" y1="8.5725" x2="16.8275" y2="6.985" width="0.3048" layer="16"/>
 <wire x1="16.8275" y1="6.985" x2="16.8275" y2="5.715" width="0.3048" layer="16"/>
 <wire x1="16.8275" y1="5.715" x2="14.2875" y2="3.175" width="0.3048" layer="16"/>
+<contactref element="U$3" pad="6"/>
 </signal>
 <signal name="IN2">
 <contactref element="DA2" pad="2"/>
-<contactref element="IN2" pad="1"/>
 <wire x1="4.1275" y1="3.175" x2="5.715" y2="4.7625" width="0.3048" layer="1"/>
 <wire x1="6.35" y1="4.7625" x2="7.9375" y2="6.35" width="0.3048" layer="1"/>
 <wire x1="5.715" y1="4.7625" x2="6.35" y2="4.7625" width="0.3048" layer="1"/>
+<contactref element="U$3" pad="2"/>
 </signal>
 <signal name="N$10">
 <contactref element="R4" pad="2"/>
@@ -2776,24 +2758,23 @@ NS Package M08A</description>
 </signal>
 <signal name="IN1">
 <contactref element="DA2" pad="15"/>
-<contactref element="IN1" pad="1"/>
 <wire x1="1.5875" y1="3.175" x2="1.5875" y2="7.62" width="0.3048" layer="16"/>
 <wire x1="1.5875" y1="7.62" x2="7.9375" y2="13.97" width="0.3048" layer="16"/>
+<contactref element="U$3" pad="1"/>
 </signal>
 <signal name="CV2">
-<contactref element="CV2" pad="1"/>
 <contactref element="R3" pad="1"/>
 <wire x1="9.2075" y1="8.255" x2="8.89" y2="8.5725" width="0.3048" layer="1"/>
 <via x="8.89" y="8.5725" extent="1-16" drill="0.35"/>
 <wire x1="8.89" y1="8.5725" x2="9.2075" y2="8.255" width="0.3048" layer="16"/>
 <wire x1="9.2075" y1="8.255" x2="9.2075" y2="3.175" width="0.3048" layer="16"/>
 <wire x1="9.66" y1="8.255" x2="9.2075" y2="8.255" width="0.3048" layer="1"/>
+<contactref element="U$3" pad="4"/>
 </signal>
 <signal name="MIX">
 <contactref element="C2" pad="1"/>
 <contactref element="R6" pad="1"/>
 <contactref element="IC1" pad="2"/>
-<contactref element="MIX" pad="1"/>
 <wire x1="26.67" y1="13.5175" x2="26.67" y2="14.605" width="0.3048" layer="1"/>
 <wire x1="31.75" y1="15.24" x2="32.385" y2="14.605" width="0.3048" layer="1"/>
 <wire x1="32.385" y1="14.605" x2="32.385" y2="12.76" width="0.3048" layer="1"/>
@@ -2807,6 +2788,7 @@ NS Package M08A</description>
 <wire x1="26.3525" y1="14.2875" x2="26.67" y2="14.605" width="0.3048" layer="16"/>
 <via x="26.67" y="14.605" extent="1-16" drill="0.35"/>
 <wire x1="26.67" y1="14.605" x2="27.305" y2="15.24" width="0.3048" layer="1"/>
+<contactref element="U$2" pad="4"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
