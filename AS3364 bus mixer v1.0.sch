@@ -12561,6 +12561,9 @@ Source: &lt;a href="http://focus.ti.com/lit/ds/symlink/ua78l05.pdf"&gt; Datashee
 <part name="DAT" library="joakim" deviceset="MA01-1J" device="N8MM"/>
 <part name="CS/CK" library="joakim" deviceset="MA01-1J" device="N8MM"/>
 <part name="STB" library="joakim" deviceset="MA01-1J" device="N8MM"/>
+<part name="STB1" library="joakim" deviceset="MA01-1J" device="N8MM"/>
+<part name="STB2" library="joakim" deviceset="MA01-1J" device="N8MM"/>
+<part name="STB3" library="joakim" deviceset="MA01-1J" device="N8MM"/>
 </parts>
 <sheets>
 <sheet>
@@ -13071,6 +13074,18 @@ the crosspoint switch</text>
 <instance part="STB" gate="G$1" x="-68.58" y="-10.16" smashed="yes">
 <attribute name="VALUE" x="-69.85" y="-15.24" size="1.778" layer="96"/>
 <attribute name="NAME" x="-69.85" y="-6.858" size="1.778" layer="95"/>
+</instance>
+<instance part="STB1" gate="G$1" x="-68.58" y="-20.32" smashed="yes">
+<attribute name="VALUE" x="-69.85" y="-25.4" size="1.778" layer="96"/>
+<attribute name="NAME" x="-69.85" y="-17.018" size="1.778" layer="95"/>
+</instance>
+<instance part="STB2" gate="G$1" x="-68.58" y="-25.4" smashed="yes">
+<attribute name="VALUE" x="-69.85" y="-30.48" size="1.778" layer="96"/>
+<attribute name="NAME" x="-69.85" y="-22.098" size="1.778" layer="95"/>
+</instance>
+<instance part="STB3" gate="G$1" x="-68.58" y="-22.86" smashed="yes">
+<attribute name="VALUE" x="-69.85" y="-27.94" size="1.778" layer="96"/>
+<attribute name="NAME" x="-69.85" y="-19.558" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
