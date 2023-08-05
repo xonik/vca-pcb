@@ -12547,6 +12547,10 @@ Source: &lt;a href="http://focus.ti.com/lit/ds/symlink/ua78l05.pdf"&gt; Datashee
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R35" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="220k"/>
+<part name="R36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="220k"/>
+<part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13078,6 +13082,20 @@ Connect tab?</text>
 <instance part="GND28" gate="1" x="198.12" y="-68.58" smashed="yes">
 <attribute name="VALUE" x="195.58" y="-71.12" size="1.778" layer="96"/>
 </instance>
+<instance part="R35" gate="G$1" x="180.34" y="-45.72" smashed="yes">
+<attribute name="NAME" x="176.53" y="-44.2214" size="1.778" layer="95"/>
+<attribute name="VALUE" x="176.53" y="-49.022" size="1.778" layer="96"/>
+</instance>
+<instance part="R36" gate="G$1" x="180.34" y="-66.04" smashed="yes">
+<attribute name="NAME" x="176.53" y="-64.5414" size="1.778" layer="95"/>
+<attribute name="VALUE" x="176.53" y="-69.342" size="1.778" layer="96"/>
+</instance>
+<instance part="GND29" gate="1" x="172.72" y="-48.26" smashed="yes">
+<attribute name="VALUE" x="170.18" y="-50.8" size="1.778" layer="96"/>
+</instance>
+<instance part="GND30" gate="1" x="172.72" y="-68.58" smashed="yes">
+<attribute name="VALUE" x="170.18" y="-71.12" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -13288,6 +13306,16 @@ Connect tab?</text>
 <pinref part="IC30" gate="A" pin="+IN"/>
 <wire x1="198.12" y1="-66.04" x2="200.66" y2="-66.04" width="0.1524" layer="91"/>
 <pinref part="GND28" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R35" gate="G$1" pin="1"/>
+<pinref part="GND29" gate="1" pin="GND"/>
+<wire x1="175.26" y1="-45.72" x2="172.72" y2="-45.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R36" gate="G$1" pin="1"/>
+<pinref part="GND30" gate="1" pin="GND"/>
+<wire x1="175.26" y1="-66.04" x2="172.72" y2="-66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IN3" class="0">
@@ -13679,9 +13707,14 @@ Connect tab?</text>
 <wire x1="198.12" y1="-60.96" x2="198.12" y2="-53.34" width="0.1524" layer="91"/>
 <pinref part="R48" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="-53.34" x2="203.2" y2="-53.34" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="-60.96" x2="198.12" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="-60.96" x2="193.04" y2="-60.96" width="0.1524" layer="91"/>
 <junction x="198.12" y="-60.96"/>
 <label x="175.26" y="-60.96" size="1.778" layer="95"/>
+<pinref part="R36" gate="G$1" pin="2"/>
+<wire x1="193.04" y1="-60.96" x2="198.12" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="-66.04" x2="193.04" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="-66.04" x2="193.04" y2="-60.96" width="0.1524" layer="91"/>
+<junction x="193.04" y="-60.96"/>
 </segment>
 <segment>
 <label x="231.14" y="15.24" size="1.778" layer="95"/>
@@ -13703,8 +13736,13 @@ Connect tab?</text>
 <pinref part="R47" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="-33.02" x2="203.2" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="198.12" y="-40.64"/>
-<wire x1="198.12" y1="-40.64" x2="175.26" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="-40.64" x2="193.04" y2="-40.64" width="0.1524" layer="91"/>
 <label x="175.26" y="-40.64" size="1.778" layer="95"/>
+<pinref part="R35" gate="G$1" pin="2"/>
+<wire x1="193.04" y1="-40.64" x2="175.26" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="-45.72" x2="193.04" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="-45.72" x2="193.04" y2="-40.64" width="0.1524" layer="91"/>
+<junction x="193.04" y="-40.64"/>
 </segment>
 <segment>
 <label x="231.14" y="17.78" size="1.778" layer="95"/>
