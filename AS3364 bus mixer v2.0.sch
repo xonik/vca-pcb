@@ -8229,8 +8229,8 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <smd name="11" x="4" y="-5.3" dx="0.5" dy="1.45" layer="1"/>
 <smd name="12" x="5.3" y="-4" dx="0.5" dy="1.45" layer="1" rot="R90"/>
 <smd name="13" x="5.3" y="-3.2" dx="0.5" dy="1.45" layer="1" rot="R90"/>
-<smd name="14" x="5.3" y="-1.6" dx="0.5" dy="1.45" layer="1" rot="R90"/>
-<smd name="15" x="5.3" y="-2.4" dx="0.5" dy="1.45" layer="1" rot="R90"/>
+<smd name="15" x="5.3" y="-1.6" dx="0.5" dy="1.45" layer="1" rot="R90"/>
+<smd name="14" x="5.3" y="-2.4" dx="0.5" dy="1.45" layer="1" rot="R90"/>
 <smd name="16" x="5.3" y="-0.8" dx="0.5" dy="1.45" layer="1" rot="R90"/>
 <smd name="17" x="5.3" y="0" dx="0.5" dy="1.45" layer="1" rot="R270"/>
 <smd name="18" x="5.3" y="0.8" dx="0.5" dy="1.45" layer="1" rot="R270"/>
@@ -13908,6 +13908,12 @@ the crosspoint switch</text>
 <label x="220.98" y="-43.18" size="1.778" layer="95"/>
 <wire x1="218.44" y1="-43.18" x2="233.68" y2="-43.18" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="IC7" gate="G$1" pin="Y4"/>
+<wire x1="203.2" y1="33.02" x2="203.2" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="22.86" x2="238.76" y2="22.86" width="0.1524" layer="91"/>
+<label x="231.14" y="22.86" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -14242,6 +14248,12 @@ the crosspoint switch</text>
 <label x="220.98" y="-63.5" size="1.778" layer="95"/>
 <wire x1="218.44" y1="-63.5" x2="233.68" y2="-63.5" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="IC7" gate="G$1" pin="Y5"/>
+<wire x1="200.66" y1="33.02" x2="200.66" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="20.32" x2="238.76" y2="20.32" width="0.1524" layer="91"/>
+<label x="231.14" y="20.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="FX_A" class="0">
 <segment>
@@ -14371,6 +14383,11 @@ the crosspoint switch</text>
 <wire x1="241.3" y1="68.58" x2="228.6" y2="68.58" width="0.1524" layer="91"/>
 <label x="231.14" y="68.58" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R39" gate="G$1" pin="2"/>
+<wire x1="149.86" y1="38.1" x2="137.16" y2="38.1" width="0.1524" layer="91"/>
+<label x="139.7" y="38.1" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SW4A" class="0">
 <segment>
@@ -14394,11 +14411,6 @@ the crosspoint switch</text>
 <pinref part="R38" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="55.88" x2="137.16" y2="55.88" width="0.1524" layer="91"/>
 <label x="139.7" y="55.88" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R39" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="38.1" x2="137.16" y2="38.1" width="0.1524" layer="91"/>
-<label x="139.7" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SW5A" class="0">
