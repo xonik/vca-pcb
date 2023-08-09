@@ -8229,8 +8229,8 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <smd name="11" x="4" y="-5.3" dx="0.5" dy="1.45" layer="1"/>
 <smd name="12" x="5.3" y="-4" dx="0.5" dy="1.45" layer="1" rot="R90"/>
 <smd name="13" x="5.3" y="-3.2" dx="0.5" dy="1.45" layer="1" rot="R90"/>
-<smd name="14" x="5.3" y="-1.6" dx="0.5" dy="1.45" layer="1" rot="R90"/>
-<smd name="15" x="5.3" y="-2.4" dx="0.5" dy="1.45" layer="1" rot="R90"/>
+<smd name="15" x="5.3" y="-1.6" dx="0.5" dy="1.45" layer="1" rot="R90"/>
+<smd name="14" x="5.3" y="-2.4" dx="0.5" dy="1.45" layer="1" rot="R90"/>
 <smd name="16" x="5.3" y="-0.8" dx="0.5" dy="1.45" layer="1" rot="R90"/>
 <smd name="17" x="5.3" y="0" dx="0.5" dy="1.45" layer="1" rot="R270"/>
 <smd name="18" x="5.3" y="0.8" dx="0.5" dy="1.45" layer="1" rot="R270"/>
