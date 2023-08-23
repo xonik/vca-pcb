@@ -54,19 +54,19 @@
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
-<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
-<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="99" name="SpiceOrder" color="5" fill="1" visible="yes" active="yes"/>
-<layer number="100" name="AnalogFill" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="yes"/>
+<layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="yes"/>
+<layer number="100" name="AnalogFill" color="16" fill="1" visible="no" active="yes"/>
 <layer number="101" name="Patch_Top" color="7" fill="1" visible="no" active="no"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
 <layer number="103" name="Accent_neu" color="7" fill="1" visible="no" active="yes"/>
@@ -95,7 +95,7 @@
 <layer number="126" name="BIFRNTMAT" color="7" fill="1" visible="no" active="yes"/>
 <layer number="127" name="Info2" color="7" fill="1" visible="no" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
 <layer number="130" name="SMDSTROOK" color="7" fill="1" visible="no" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
@@ -136,12 +136,12 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="no"/>
 <layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
 <layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
@@ -12789,13 +12789,6 @@ will reduce a 10.5V input to
 8V output, which should
 pass unchanged through
 the crosspoint switch</text>
-<text x="226.06" y="-33.02" size="1.778" layer="91">Søren, det er en bug
-her, det er BUS_A som 
-går til pinner, det skulle
-vært SUM_A. Nå er ikke
-SUM_A koblet til noen
-output. Den skal heller
-ikke være koblet til Y4, Y5</text>
 </plain>
 <instances>
 <instance part="R5" gate="G$1" x="15.24" y="60.96" smashed="yes">
@@ -13870,11 +13863,6 @@ ikke være koblet til Y4, Y5</text>
 <wire x1="238.76" y1="15.24" x2="195.58" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="15.24" x2="195.58" y2="33.02" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<wire x1="-175.26" y1="40.64" x2="-152.4" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="X1" gate="1" pin="2"/>
-<label x="-167.64" y="40.64" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="BUS_A" class="0">
 <segment>
@@ -13898,11 +13886,6 @@ ikke være koblet til Y4, Y5</text>
 <pinref part="IC7" gate="G$1" pin="Y6"/>
 <wire x1="198.12" y1="17.78" x2="198.12" y2="33.02" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<wire x1="-175.26" y1="43.18" x2="-152.4" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="X1" gate="1" pin="4"/>
-<label x="-167.64" y="43.18" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="SUM_A" class="0">
 <segment>
@@ -13916,10 +13899,9 @@ ikke være koblet til Y4, Y5</text>
 <wire x1="218.44" y1="-43.18" x2="233.68" y2="-43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="Y4"/>
-<wire x1="203.2" y1="33.02" x2="203.2" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="22.86" x2="238.76" y2="22.86" width="0.1524" layer="91"/>
-<label x="231.14" y="22.86" size="1.778" layer="95"/>
+<wire x1="-175.26" y1="43.18" x2="-152.4" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="X1" gate="1" pin="4"/>
+<label x="-167.64" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -14256,10 +14238,9 @@ ikke være koblet til Y4, Y5</text>
 <wire x1="218.44" y1="-63.5" x2="233.68" y2="-63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="Y5"/>
-<wire x1="200.66" y1="33.02" x2="200.66" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="20.32" x2="238.76" y2="20.32" width="0.1524" layer="91"/>
-<label x="231.14" y="20.32" size="1.778" layer="95"/>
+<wire x1="-175.26" y1="40.64" x2="-152.4" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="X1" gate="1" pin="2"/>
+<label x="-167.64" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FX_A" class="0">
