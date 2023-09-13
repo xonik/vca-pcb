@@ -12789,6 +12789,9 @@ will reduce a 10.5V input to
 8V output, which should
 pass unchanged through
 the crosspoint switch</text>
+<text x="-170.18" y="20.32" size="1.778" layer="97">Rev. history:
+- v2.1: Fixes bug where bus was output instead of sum</text>
+<text x="127" y="-91.44" size="3.81" layer="91">TODO: ADD FILTER CAP TO PREVENT CLICKS</text>
 </plain>
 <instances>
 <instance part="R5" gate="G$1" x="15.24" y="60.96" smashed="yes">
