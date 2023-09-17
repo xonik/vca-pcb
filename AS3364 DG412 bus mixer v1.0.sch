@@ -9283,7 +9283,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY21" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
 <part name="+3V17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="SUPPLY30" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1K"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
 <part name="+3V21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF"/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF"/>
@@ -12376,13 +12376,7 @@ gain</text>
 <label x="-91.44" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$81" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="!RESET"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$4" class="0">
+<net name="VL" class="0">
 <segment>
 <pinref part="IC8" gate="_WL" pin="VL"/>
 <pinref part="IC11" gate="_WL" pin="VL"/>
@@ -12399,6 +12393,7 @@ gain</text>
 <junction x="246.38" y="66.04"/>
 <wire x1="246.38" y1="66.04" x2="246.38" y2="63.5" width="0.1524" layer="91"/>
 <junction x="254" y="66.04"/>
+<label x="248.92" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SUM8" class="0">
@@ -12411,11 +12406,19 @@ gain</text>
 <pinref part="R19" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="RST" class="0">
+<net name="!RST" class="0">
 <segment>
 <pinref part="SV6" gate="G$1" pin="1"/>
 <wire x1="-93.98" y1="96.52" x2="-76.2" y2="96.52" width="0.1524" layer="91"/>
 <label x="-91.44" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="!RESET"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="198.12" y1="-147.32" x2="198.12" y2="-152.4" width="0.1524" layer="91"/>
+<junction x="198.12" y="-147.32"/>
+<wire x1="198.12" y1="-152.4" x2="177.8" y2="-152.4" width="0.1524" layer="91"/>
+<label x="177.8" y="-152.4" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
