@@ -9337,6 +9337,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="-12V" device=""/>
+<part name="SV1" library="joakim" deviceset="MA01-1J" device="P"/>
+<part name="SV32" library="joakim" deviceset="MA01-1J" device="P"/>
 </parts>
 <sheets>
 <sheet>
@@ -10221,6 +10223,14 @@ gain</text>
 </instance>
 <instance part="SUPPLY4" gate="G$1" x="-76.2" y="-78.74" smashed="yes">
 <attribute name="VALUE" x="-79.375" y="-83.439" size="1.778" layer="96"/>
+</instance>
+<instance part="SV1" gate="G$1" x="-101.6" y="-86.36" smashed="yes">
+<attribute name="VALUE" x="-102.87" y="-91.44" size="1.778" layer="96"/>
+<attribute name="NAME" x="-102.87" y="-83.058" size="1.778" layer="95"/>
+</instance>
+<instance part="SV32" gate="G$1" x="-101.6" y="-91.44" smashed="yes">
+<attribute name="VALUE" x="-102.87" y="-96.52" size="1.778" layer="96"/>
+<attribute name="NAME" x="-102.87" y="-88.138" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
