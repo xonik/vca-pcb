@@ -9543,6 +9543,14 @@ externally</text>
 <text x="247.65" y="63.5" size="1.778" layer="97">5V</text>
 <text x="-91.44" y="55.88" size="1.778" layer="91">C2833322 8p</text>
 <text x="264.16" y="38.1" size="1.778" layer="97">100kHz LPF</text>
+<text x="-17.78" y="124.46" size="6.4516" layer="91">TODO:
+PGA manglende summer
+på filter output
+så kan man ikke ha to
+LPF. Det må fikses.
+Ha inverted output 
+og summer enten her
+eller eksternt</text>
 </plain>
 <instances>
 <instance part="R8" gate="G$1" x="-15.24" y="63.5" smashed="yes">
