@@ -8526,7 +8526,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/40039E.pdf</description>
 <rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
 <rectangle x1="8.636" y1="-0.254" x2="9.144" y2="0.254" layer="51"/>
 </package>
-<package name="R0402" urn="urn:adsk.eagle:footprint:23043/3" library_version="11">
+<package name="C0402-J">
 <description>&lt;b&gt;Chip RESISTOR 0402 EIA (1005 Metric)&lt;/b&gt;</description>
 <wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
 <wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
@@ -8572,14 +8572,6 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/40039E.pdf</description>
 <text x="-3.429" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
-<packages3d>
-<package3d name="R0402" urn="urn:adsk.eagle:package:23547/3" type="model" library_version="11">
-<description>Chip RESISTOR 0402 EIA (1005 Metric)</description>
-<packageinstances>
-<packageinstance name="R0402"/>
-</packageinstances>
-</package3d>
-</packages3d>
 <symbols>
 <symbol name="OPAMP_J">
 <wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
@@ -9128,7 +9120,7 @@ Interrupt output requires external pull-up resistor for all variants.
 </device>
 </devices>
 </deviceset>
-<deviceset name="MA08-1J" prefix="SV" uservalue="yes">
+<deviceset name="MA08-1J" prefix="X" uservalue="yes">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="MA08-1J" x="0" y="0"/>
@@ -9201,14 +9193,11 @@ Interrupt output requires external pull-up resistor for all variants.
 <technology name=""/>
 </technologies>
 </device>
-<device name="" package="R0402">
+<device name="" package="C0402-J">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23547/3"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -9376,7 +9365,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC3" library="joakim" deviceset="TL072J" device="T" value="TL072JT"/>
 <part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF"/>
-<part name="C13" library="joakim" deviceset="C-EU-J" device="" package3d_urn="urn:adsk.eagle:package:23547/3" value="5nF"/>
+<part name="C13" library="joakim" deviceset="C-EU-J" device="" value="5nF"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="DA2" library="joakim" deviceset="AS3364" device="D"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
@@ -9404,7 +9393,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C14" library="joakim" deviceset="C-EU-J" device="" package3d_urn="urn:adsk.eagle:package:23547/3" value="5nF"/>
+<part name="C14" library="joakim" deviceset="C-EU-J" device="" value="5nF"/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="DA3" library="joakim" deviceset="AS3364" device="D"/>
 <part name="R63" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="47k"/>
@@ -9467,7 +9456,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC6" library="joakim" deviceset="TL072J" device="T" value="TL072JT"/>
-<part name="C15" library="joakim" deviceset="C-EU-J" device="" package3d_urn="urn:adsk.eagle:package:23547/3" value="5nF"/>
+<part name="C15" library="joakim" deviceset="C-EU-J" device="" value="5nF"/>
 <part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="DA1" library="joakim" deviceset="AS3364" device="D"/>
 <part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="47k"/>
@@ -9513,10 +9502,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C24" library="joakim" deviceset="C-EU-J" device="" package3d_urn="urn:adsk.eagle:package:23547/3" value="33pF"/>
-<part name="C25" library="joakim" deviceset="C-EU-J" device="" package3d_urn="urn:adsk.eagle:package:23547/3" value="33pF"/>
-<part name="C26" library="joakim" deviceset="C-EU-J" device="" package3d_urn="urn:adsk.eagle:package:23547/3" value="33pF"/>
-<part name="C27" library="joakim" deviceset="C-EU-J" device="" package3d_urn="urn:adsk.eagle:package:23547/3" value="33pF"/>
+<part name="C24" library="joakim" deviceset="C-EU-J" device="" value="33pF"/>
+<part name="C25" library="joakim" deviceset="C-EU-J" device="" value="33pF"/>
+<part name="C26" library="joakim" deviceset="C-EU-J" device="" value="33pF"/>
+<part name="C27" library="joakim" deviceset="C-EU-J" device="" value="33pF"/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R49" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="47k"/>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
