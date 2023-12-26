@@ -3473,7 +3473,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/40039E.pdf</description>
 <wire x1="52.72" y1="20.14625" x2="53.34" y2="19.52625" width="0.254" layer="1"/>
 <via x="53.34" y="19.52625" extent="1-16" drill="0.3302"/>
 <polygon width="0.127" layer="16">
-<vertex x="0.635" y="36.98875"/>
+<vertex x="-0.47625" y="36.98875"/>
 <vertex x="84.61375" y="36.98875"/>
 <vertex x="84.61375" y="-0.47625"/>
 <vertex x="13.335" y="-0.47625"/>
@@ -3502,7 +3502,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/40039E.pdf</description>
 <vertex x="44.29125" y="28.41625"/>
 <vertex x="39.21125" y="28.41625"/>
 <vertex x="38.735" y="27.94"/>
-<vertex x="0.635" y="27.94"/>
+<vertex x="-0.47625" y="27.94"/>
 </polygon>
 <polygon width="0.1524" layer="1">
 <vertex x="0.635" y="37.30625"/>
@@ -3527,10 +3527,8 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/40039E.pdf</description>
 <vertex x="41.43375" y="28.41625"/>
 <vertex x="39.21125" y="28.41625"/>
 <vertex x="38.735" y="27.94"/>
-<vertex x="0.79375" y="27.94"/>
-<vertex x="0.79375" y="36.67125"/>
-<vertex x="0.635" y="36.83"/>
-<vertex x="0" y="36.83"/>
+<vertex x="-0.15875" y="27.94"/>
+<vertex x="-0.15875" y="36.67125"/>
 <vertex x="0.635" y="37.465"/>
 </polygon>
 <via x="5.23875" y="29.68625" extent="1-16" drill="0.3302"/>
