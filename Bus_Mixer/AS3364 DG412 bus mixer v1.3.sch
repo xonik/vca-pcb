@@ -8489,6 +8489,60 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/40039E.pdf</description>
 <pad name="16" x="19.05" y="0" drill="1.016" shape="offset" rot="R270"/>
 <rectangle x1="18.796" y1="-0.254" x2="19.304" y2="0.254" layer="51"/>
 </package>
+<package name="C0603-J">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
+chip</description>
+<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
+<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<text x="-0.889" y="0.889" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.889" y="-2.032" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
+<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
+<package name="MA16N-1J">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<pad name="1" x="-19.05" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="2" x="-16.51" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="3" x="-13.97" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="4" x="-11.43" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="5" x="-8.89" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="6" x="-6.35" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="7" x="-3.81" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="8" x="-1.27" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="9" x="1.27" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="10" x="3.81" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="11" x="6.35" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="12" x="8.89" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="13" x="11.43" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<text x="-19.05" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="15.24" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-14.224" y1="-0.254" x2="-13.716" y2="0.254" layer="51"/>
+<rectangle x1="-16.764" y1="-0.254" x2="-16.256" y2="0.254" layer="51"/>
+<rectangle x1="-11.684" y1="-0.254" x2="-11.176" y2="0.254" layer="51"/>
+<rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
+<rectangle x1="-9.144" y1="-0.254" x2="-8.636" y2="0.254" layer="51"/>
+<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
+<rectangle x1="8.636" y1="-0.254" x2="9.144" y2="0.254" layer="51"/>
+<rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
+<rectangle x1="11.176" y1="-0.254" x2="11.684" y2="0.254" layer="51"/>
+<rectangle x1="13.716" y1="-0.254" x2="14.224" y2="0.254" layer="51"/>
+<pad name="14" x="13.97" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<rectangle x1="-19.304" y1="-0.254" x2="-18.796" y2="0.254" layer="51"/>
+<pad name="15" x="16.51" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="16" x="19.05" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<rectangle x1="16.256" y1="-0.254" x2="16.764" y2="0.254" layer="51"/>
+<rectangle x1="18.796" y1="-0.254" x2="19.304" y2="0.254" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="OPAMP_J">
@@ -9054,7 +9108,7 @@ Interrupt output requires external pull-up resistor for all variants.
 </device>
 </devices>
 </deviceset>
-<deviceset name="C-EU-J">
+<deviceset name="C-EU-J" prefix="C">
 <description>&lt;B&gt;CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="2.54"/>
@@ -9069,7 +9123,16 @@ Interrupt output requires external pull-up resistor for all variants.
 <technology name=""/>
 </technologies>
 </device>
-<device name="" package="C0402-J">
+<device name="0402" package="C0402-J">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0603" package="C0603-J">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -9086,6 +9149,29 @@ Interrupt output requires external pull-up resistor for all variants.
 </gates>
 <devices>
 <device name="P" package="SIP-PIN16-1J">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="N" package="MA16N-1J">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
@@ -9271,7 +9357,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC3" library="joakim" deviceset="TL072J" device="T" value="TL072JT"/>
 <part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF"/>
-<part name="C13" library="joakim" deviceset="C-EU-J" device="" value="5nF"/>
+<part name="C13" library="joakim" deviceset="C-EU-J" device="0402" value="5nF"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="DA2" library="joakim" deviceset="AS3364" device="D"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
@@ -9299,7 +9385,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C14" library="joakim" deviceset="C-EU-J" device="" value="5nF"/>
+<part name="C14" library="joakim" deviceset="C-EU-J" device="0402" value="5nF"/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="DA3" library="joakim" deviceset="AS3364" device="D"/>
 <part name="R63" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="47k"/>
@@ -9362,7 +9448,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC6" library="joakim" deviceset="TL072J" device="T" value="TL072JT"/>
-<part name="C15" library="joakim" deviceset="C-EU-J" device="" value="5nF"/>
+<part name="C15" library="joakim" deviceset="C-EU-J" device="0402" value="5nF"/>
 <part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="DA1" library="joakim" deviceset="AS3364" device="D"/>
 <part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="47k"/>
@@ -9404,10 +9490,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C24" library="joakim" deviceset="C-EU-J" device="" value="33pF"/>
-<part name="C25" library="joakim" deviceset="C-EU-J" device="" value="33pF"/>
-<part name="C26" library="joakim" deviceset="C-EU-J" device="" value="33pF"/>
-<part name="C27" library="joakim" deviceset="C-EU-J" device="" value="33pF"/>
+<part name="C24" library="joakim" deviceset="C-EU-J" device="0402" value="33pF"/>
+<part name="C25" library="joakim" deviceset="C-EU-J" device="0402" value="33pF"/>
+<part name="C26" library="joakim" deviceset="C-EU-J" device="0402" value="33pF"/>
+<part name="C27" library="joakim" deviceset="C-EU-J" device="0402" value="33pF"/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R49" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="47k"/>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
