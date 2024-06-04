@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="12.5" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -40,11 +40,11 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -155,9 +155,13 @@
 <board>
 <plain>
 <wire x1="0" y1="0" x2="83.82" y2="0" width="0" layer="20"/>
-<wire x1="83.82" y1="0" x2="83.82" y2="36.83" width="0" layer="20"/>
-<wire x1="83.82" y1="36.83" x2="0" y2="36.83" width="0" layer="20"/>
-<wire x1="0" y1="36.83" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="83.82" y1="0" x2="83.82" y2="42.8625" width="0" layer="20"/>
+<wire x1="83.82" y1="42.8625" x2="79.0575" y2="42.8625" width="0" layer="20"/>
+<wire x1="79.0575" y1="42.8625" x2="73.025" y2="36.83" width="0" layer="20"/>
+<wire x1="73.025" y1="36.83" x2="10.795" y2="36.83" width="0" layer="20"/>
+<wire x1="10.795" y1="36.83" x2="4.7625" y2="42.8625" width="0" layer="20"/>
+<wire x1="4.7625" y1="42.8625" x2="0" y2="42.8625" width="0" layer="20"/>
+<wire x1="0" y1="42.8625" x2="0" y2="0" width="0" layer="20"/>
 <text x="63.02375" y="22.225" size="0.8128" layer="25" font="vector">Pre-filter bus mixer
 DG412 version v1.3</text>
 <text x="2.69875" y="13.81125" size="0.8128" layer="25" font="vector" rot="R90">4VOB</text>
@@ -193,6 +197,10 @@ DG412 version v1.3</text>
 <text x="33.655" y="4.60375" size="1.27" layer="26" font="vector" rot="MR90">SUM B</text>
 <text x="31.115" y="4.60375" size="1.27" layer="26" font="vector" rot="MR90">SUM A</text>
 <text x="38.735" y="4.60375" size="1.27" layer="26" font="vector" rot="MR90">CHAIN</text>
+<hole x="2.54" y="39.6875" drill="3.2"/>
+<circle x="2.54" y="39.6875" radius="3" width="0.254" layer="49"/>
+<hole x="81.28" y="39.6875" drill="3.2"/>
+<circle x="81.28" y="39.6875" radius="3" width="0.254" layer="49"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
