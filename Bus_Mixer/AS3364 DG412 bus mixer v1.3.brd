@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="6.25" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -40,7 +40,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -154,14 +154,15 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="83.82" y2="0" width="0" layer="20"/>
-<wire x1="83.82" y1="0" x2="83.82" y2="42.8625" width="0" layer="20"/>
-<wire x1="83.82" y1="42.8625" x2="79.0575" y2="42.8625" width="0" layer="20"/>
-<wire x1="79.0575" y1="42.8625" x2="73.025" y2="36.83" width="0" layer="20"/>
-<wire x1="73.025" y1="36.83" x2="10.795" y2="36.83" width="0" layer="20"/>
-<wire x1="10.795" y1="36.83" x2="4.7625" y2="42.8625" width="0" layer="20"/>
-<wire x1="4.7625" y1="42.8625" x2="0" y2="42.8625" width="0" layer="20"/>
-<wire x1="0" y1="42.8625" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="2.54" y1="-8.255" x2="5.08" y2="-8.255" width="0" layer="20"/>
+<wire x1="83.82" y1="0" x2="83.82" y2="36.83" width="0" layer="20"/>
+<wire x1="83.82" y1="36.83" x2="79.0575" y2="36.83" width="0" layer="20"/>
+<wire x1="79.0575" y1="36.83" x2="73.025" y2="36.83" width="0" layer="20"/>
+<wire x1="73.025" y1="36.83" x2="70.96125" y2="36.83" width="0" layer="20"/>
+<wire x1="54.45125" y1="36.83" x2="10.795" y2="36.83" width="0" layer="20"/>
+<wire x1="10.795" y1="36.83" x2="4.7625" y2="36.83" width="0" layer="20"/>
+<wire x1="4.7625" y1="36.83" x2="-0.9525" y2="36.83" width="0" layer="20"/>
+<wire x1="-0.9525" y1="36.83" x2="-0.9525" y2="-4.7625" width="0" layer="20"/>
 <text x="63.02375" y="22.225" size="0.8128" layer="25" font="vector">Pre-filter bus mixer
 DG412 version v1.3</text>
 <text x="2.69875" y="13.81125" size="0.8128" layer="25" font="vector" rot="R90">4VOB</text>
@@ -197,10 +198,24 @@ DG412 version v1.3</text>
 <text x="33.655" y="4.60375" size="1.27" layer="26" font="vector" rot="MR90">SUM B</text>
 <text x="31.115" y="4.60375" size="1.27" layer="26" font="vector" rot="MR90">SUM A</text>
 <text x="38.735" y="4.60375" size="1.27" layer="26" font="vector" rot="MR90">CHAIN</text>
-<hole x="2.54" y="39.6875" drill="3.2"/>
 <circle x="2.54" y="39.6875" radius="3" width="0.254" layer="49"/>
-<hole x="81.28" y="39.6875" drill="3.2"/>
+<hole x="62.70625" y="40.79875" drill="3.2"/>
 <circle x="81.28" y="39.6875" radius="3" width="0.254" layer="49"/>
+<hole x="2.54" y="-4.7625" drill="3.2"/>
+<circle x="2.54" y="-4.7625" radius="3" width="0.127" layer="51"/>
+<wire x1="2.54" y1="-8.255" x2="-0.9525" y2="-4.7625" width="0" layer="20" curve="-90"/>
+<wire x1="8.5725" y1="-4.7625" x2="5.08" y2="-8.255" width="0" layer="20" curve="-90"/>
+<wire x1="8.5725" y1="-3.4925" x2="12.065" y2="0" width="0" layer="20" curve="-90"/>
+<wire x1="8.5725" y1="-3.4925" x2="8.5725" y2="-4.7625" width="0" layer="20"/>
+<wire x1="12.065" y1="0" x2="83.82" y2="0" width="0" layer="20"/>
+<circle x="62.70625" y="40.79875" radius="3" width="0.127" layer="51"/>
+<wire x1="63.97625" y1="44.29125" x2="61.43625" y2="44.29125" width="0" layer="20"/>
+<wire x1="63.97625" y1="44.29125" x2="67.46875" y2="40.79875" width="0" layer="20" curve="-90"/>
+<wire x1="57.94375" y1="40.79875" x2="61.43625" y2="44.29125" width="0" layer="20" curve="-90"/>
+<wire x1="57.94375" y1="40.3225" x2="54.45125" y2="36.83" width="0" layer="20" curve="-90"/>
+<wire x1="70.96125" y1="36.83" x2="67.46875" y2="40.3225" width="0" layer="20" curve="-90"/>
+<wire x1="67.46875" y1="40.79875" x2="67.46875" y2="40.3225" width="0" layer="20"/>
+<wire x1="57.94375" y1="40.79875" x2="57.94375" y2="40.3225" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
