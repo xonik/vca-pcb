@@ -9500,8 +9500,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R51" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="47k"/>
 <part name="IC5" library="joakim" deviceset="TL072J" device="T" value="TL072JT"/>
 <part name="R69" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="47k"/>
-<part name="U$2" library="joakim" deviceset="MA16-1J" device="P" value="MA16-1JP-ANGLED"/>
-<part name="U$3" library="joakim" deviceset="MA16-1J" device="P" value="MA16-1JP-ANGLED"/>
+<part name="U$2" library="joakim" deviceset="MA16-1J" device="P" value="MA16-1JP-FEMALE"/>
+<part name="U$3" library="joakim" deviceset="MA16-1J" device="P" value="MA16-1JP-FEMALE"/>
 <part name="R70" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="DNM"/>
 </parts>
 <sheets>
@@ -9512,7 +9512,6 @@ In this library the device names are the same as the pin names of the symbols, t
 gain</text>
 <text x="246.38" y="69.85" size="1.778" layer="97">Modules</text>
 <text x="247.65" y="63.5" size="1.778" layer="97">5V</text>
-<text x="-91.44" y="55.88" size="1.778" layer="91">C2833322 8p</text>
 <text x="264.16" y="38.1" size="1.778" layer="97">100kHz LPF</text>
 <text x="111.76" y="-106.68" size="3.81" layer="91">Funker finfint!</text>
 <text x="48.26" y="-96.52" size="1.778" layer="97">Wet</text>
