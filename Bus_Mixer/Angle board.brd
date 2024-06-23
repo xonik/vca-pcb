@@ -8,7 +8,7 @@
 </settings>
 <grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -16,13 +16,13 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -46,7 +46,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -192,6 +192,7 @@
 <text x="23.495" y="5.715" size="1.27" layer="26" font="vector" rot="MR0">CV BC</text>
 <text x="23.495" y="3.175" size="1.27" layer="26" font="vector" rot="MR0">Distort</text>
 <text x="23.495" y="0.635" size="1.27" layer="26" font="vector" rot="MR0">Bitcru</text>
+<text x="5.3975" y="77.7875" size="1.778" layer="26" font="vector" rot="MR0">v1.0</text>
 </plain>
 <libraries>
 <library name="joakim">
@@ -1302,11 +1303,6 @@
 <contactref element="U$1" pad="6"/>
 <wire x1="14.235" y1="26.67" x2="9.895" y2="26.67" width="0.508" layer="1"/>
 </signal>
-<signal name="N$7">
-<contactref element="U$3" pad="10"/>
-<contactref element="U$1" pad="7"/>
-<wire x1="14.235" y1="24.13" x2="9.895" y2="24.13" width="0.508" layer="1"/>
-</signal>
 <signal name="N$8">
 <contactref element="U$3" pad="9"/>
 <contactref element="U$1" pad="8"/>
@@ -1414,11 +1410,6 @@
 <contactref element="U$4" pad="12"/>
 <wire x1="14.235" y1="72.39" x2="9.895" y2="72.39" width="0.254" layer="1"/>
 </signal>
-<signal name="N$29">
-<contactref element="U$2" pad="4"/>
-<contactref element="U$4" pad="13"/>
-<wire x1="9.895" y1="74.93" x2="14.235" y2="74.93" width="0.508" layer="1"/>
-</signal>
 <signal name="N$30">
 <contactref element="U$2" pad="3"/>
 <contactref element="U$4" pad="14"/>
@@ -1433,6 +1424,122 @@
 <contactref element="U$2" pad="1"/>
 <contactref element="U$4" pad="16"/>
 <wire x1="9.895" y1="82.55" x2="14.235" y2="82.55" width="0.508" layer="1"/>
+</signal>
+<signal name="AGND">
+<via x="12.065" y="81.28" extent="1-16" drill="0.3302"/>
+<contactref element="U$2" pad="4"/>
+<contactref element="U$4" pad="13"/>
+<wire x1="9.895" y1="74.93" x2="14.235" y2="74.93" width="0.508" layer="1"/>
+<contactref element="U$3" pad="10"/>
+<contactref element="U$1" pad="7"/>
+<wire x1="14.235" y1="24.13" x2="9.895" y2="24.13" width="0.508" layer="1"/>
+<via x="6.35" y="81.28" extent="1-16" drill="0.3302"/>
+<via x="17.78" y="81.28" extent="1-16" drill="0.3302"/>
+<via x="12.065" y="78.74" extent="1-16" drill="0.3302"/>
+<via x="12.065" y="76.2" extent="1-16" drill="0.3302"/>
+<via x="12.065" y="73.66" extent="1-16" drill="0.3302"/>
+<via x="12.065" y="71.12" extent="1-16" drill="0.3302"/>
+<via x="12.065" y="68.58" extent="1-16" drill="0.3302"/>
+<via x="12.065" y="66.04" extent="1-16" drill="0.3302"/>
+<via x="12.065" y="63.5" extent="1-16" drill="0.3302"/>
+<via x="12.065" y="60.96" extent="1-16" drill="0.3302"/>
+<via x="12.065" y="58.42" extent="1-16" drill="0.3302"/>
+<via x="17.78" y="78.74" extent="1-16" drill="0.3302"/>
+<via x="17.78" y="76.2" extent="1-16" drill="0.3302"/>
+<via x="17.78" y="73.66" extent="1-16" drill="0.3302"/>
+<via x="17.78" y="71.12" extent="1-16" drill="0.3302"/>
+<via x="17.78" y="68.58" extent="1-16" drill="0.3302"/>
+<via x="17.78" y="66.04" extent="1-16" drill="0.3302"/>
+<via x="17.78" y="63.5" extent="1-16" drill="0.3302"/>
+<via x="17.78" y="60.96" extent="1-16" drill="0.3302"/>
+<via x="17.78" y="58.42" extent="1-16" drill="0.3302"/>
+<via x="17.78" y="55.88" extent="1-16" drill="0.3302"/>
+<via x="17.78" y="53.34" extent="1-16" drill="0.3302"/>
+<via x="17.78" y="50.8" extent="1-16" drill="0.3302"/>
+<via x="17.78" y="48.26" extent="1-16" drill="0.3302"/>
+<via x="17.78" y="45.72" extent="1-16" drill="0.3302"/>
+<via x="17.78" y="43.18" extent="1-16" drill="0.3302"/>
+<via x="12.065" y="55.88" extent="1-16" drill="0.3302"/>
+<via x="12.065" y="53.34" extent="1-16" drill="0.3302"/>
+<via x="12.065" y="50.8" extent="1-16" drill="0.3302"/>
+<via x="12.065" y="48.26" extent="1-16" drill="0.3302"/>
+<via x="12.065" y="45.72" extent="1-16" drill="0.3302"/>
+<via x="12.065" y="43.18" extent="1-16" drill="0.3302"/>
+<polygon width="0.127" layer="1">
+<vertex x="-0.635" y="84.455"/>
+<vertex x="24.765" y="84.455"/>
+<vertex x="24.765" y="-0.635"/>
+<vertex x="-0.635" y="-0.635"/>
+</polygon>
+<polygon width="0.127" layer="16">
+<vertex x="-1.27" y="85.09"/>
+<vertex x="25.4" y="85.09"/>
+<vertex x="25.4" y="-1.27"/>
+<vertex x="-1.27" y="-1.27"/>
+</polygon>
+<via x="6.35" y="78.74" extent="1-16" drill="0.3302"/>
+<via x="6.35" y="76.2" extent="1-16" drill="0.3302"/>
+<via x="6.35" y="73.66" extent="1-16" drill="0.3302"/>
+<via x="6.35" y="71.12" extent="1-16" drill="0.3302"/>
+<via x="6.35" y="68.58" extent="1-16" drill="0.3302"/>
+<via x="6.35" y="66.04" extent="1-16" drill="0.3302"/>
+<via x="6.35" y="63.5" extent="1-16" drill="0.3302"/>
+<via x="6.35" y="60.96" extent="1-16" drill="0.3302"/>
+<via x="6.35" y="58.42" extent="1-16" drill="0.3302"/>
+<via x="6.35" y="55.88" extent="1-16" drill="0.3302"/>
+<via x="6.35" y="53.34" extent="1-16" drill="0.3302"/>
+<via x="6.35" y="50.8" extent="1-16" drill="0.3302"/>
+<via x="6.35" y="48.26" extent="1-16" drill="0.3302"/>
+<via x="6.35" y="45.72" extent="1-16" drill="0.3302"/>
+<via x="6.35" y="43.18" extent="1-16" drill="0.3302"/>
+<via x="6.35" y="40.64" extent="1-16" drill="0.3302"/>
+<via x="6.35" y="38.1" extent="1-16" drill="0.3302"/>
+<via x="6.35" y="35.56" extent="1-16" drill="0.3302"/>
+<via x="6.35" y="33.02" extent="1-16" drill="0.3302"/>
+<via x="6.35" y="30.48" extent="1-16" drill="0.3302"/>
+<via x="6.35" y="27.94" extent="1-16" drill="0.3302"/>
+<via x="6.35" y="25.4" extent="1-16" drill="0.3302"/>
+<via x="6.35" y="22.86" extent="1-16" drill="0.3302"/>
+<via x="6.35" y="20.32" extent="1-16" drill="0.3302"/>
+<via x="6.35" y="17.78" extent="1-16" drill="0.3302"/>
+<via x="6.35" y="15.24" extent="1-16" drill="0.3302"/>
+<via x="6.35" y="12.7" extent="1-16" drill="0.3302"/>
+<via x="6.35" y="10.16" extent="1-16" drill="0.3302"/>
+<via x="6.35" y="7.62" extent="1-16" drill="0.3302"/>
+<via x="6.35" y="5.08" extent="1-16" drill="0.3302"/>
+<via x="6.35" y="2.54" extent="1-16" drill="0.3302"/>
+<via x="12.065" y="40.64" extent="1-16" drill="0.3302"/>
+<via x="12.065" y="38.1" extent="1-16" drill="0.3302"/>
+<via x="12.065" y="35.56" extent="1-16" drill="0.3302"/>
+<via x="12.065" y="33.02" extent="1-16" drill="0.3302"/>
+<via x="12.065" y="30.48" extent="1-16" drill="0.3302"/>
+<via x="12.065" y="27.94" extent="1-16" drill="0.3302"/>
+<via x="12.065" y="25.4" extent="1-16" drill="0.3302"/>
+<via x="12.065" y="22.86" extent="1-16" drill="0.3302"/>
+<via x="12.065" y="20.32" extent="1-16" drill="0.3302"/>
+<via x="12.065" y="17.78" extent="1-16" drill="0.3302"/>
+<via x="12.065" y="15.24" extent="1-16" drill="0.3302"/>
+<via x="12.065" y="12.7" extent="1-16" drill="0.3302"/>
+<via x="12.065" y="10.16" extent="1-16" drill="0.3302"/>
+<via x="12.065" y="7.62" extent="1-16" drill="0.3302"/>
+<via x="12.065" y="5.08" extent="1-16" drill="0.3302"/>
+<via x="12.065" y="2.54" extent="1-16" drill="0.3302"/>
+<via x="17.78" y="40.64" extent="1-16" drill="0.3302"/>
+<via x="17.78" y="38.1" extent="1-16" drill="0.3302"/>
+<via x="17.78" y="35.56" extent="1-16" drill="0.3302"/>
+<via x="17.78" y="33.02" extent="1-16" drill="0.3302"/>
+<via x="17.78" y="30.48" extent="1-16" drill="0.3302"/>
+<via x="17.78" y="27.94" extent="1-16" drill="0.3302"/>
+<via x="17.78" y="25.4" extent="1-16" drill="0.3302"/>
+<via x="17.78" y="22.86" extent="1-16" drill="0.3302"/>
+<via x="17.78" y="20.32" extent="1-16" drill="0.3302"/>
+<via x="17.78" y="17.78" extent="1-16" drill="0.3302"/>
+<via x="17.78" y="15.24" extent="1-16" drill="0.3302"/>
+<via x="17.78" y="12.7" extent="1-16" drill="0.3302"/>
+<via x="17.78" y="10.16" extent="1-16" drill="0.3302"/>
+<via x="17.78" y="7.62" extent="1-16" drill="0.3302"/>
+<via x="17.78" y="5.08" extent="1-16" drill="0.3302"/>
+<via x="17.78" y="2.54" extent="1-16" drill="0.3302"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
