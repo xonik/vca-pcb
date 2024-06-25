@@ -3706,7 +3706,8 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/40039E.pdf</description>
 <contactref element="U$2" pad="7"/>
 <via x="50.64125" y="7.3025" extent="1-16" drill="0.3302"/>
 <via x="76.2" y="5.000625" extent="1-16" drill="0.3302"/>
-<wire x1="40.79875" y1="14.525625" x2="38.1" y2="14.58125" width="0" layer="19" extent="1-1"/>
+<wire x1="38.1" y1="14.58125" x2="38.1" y2="12.85875" width="0.254" layer="1"/>
+<via x="38.1" y="12.85875" extent="1-16" drill="0.3302"/>
 </signal>
 <signal name="IN3">
 <contactref element="R10" pad="1"/>
