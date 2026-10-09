@@ -4409,6 +4409,54 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/40039E.pdf</description>
 <smd name="15" x="-1.6175" y="2.825" dx="0.35" dy="1" layer="1" rot="R180"/>
 <smd name="16" x="-2.2675" y="2.825" dx="0.35" dy="1" layer="1" rot="R180"/>
 </package>
+<package name="SO-16">
+<description>&lt;b&gt;Small Outline package&lt;/b&gt; 150 mil</description>
+<wire x1="4.699" y1="1.9558" x2="-4.699" y2="1.9558" width="0.1524" layer="21"/>
+<wire x1="4.699" y1="-1.9558" x2="5.08" y2="-1.5748" width="0.1524" layer="21" curve="90"/>
+<wire x1="-5.08" y1="1.5748" x2="-4.699" y2="1.9558" width="0.1524" layer="21" curve="-90"/>
+<wire x1="4.699" y1="1.9558" x2="5.08" y2="1.5748" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-5.08" y1="-1.5748" x2="-4.699" y2="-1.9558" width="0.1524" layer="21" curve="90"/>
+<wire x1="-4.699" y1="-1.9558" x2="4.699" y2="-1.9558" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-1.5748" x2="5.08" y2="1.5748" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="1.5748" x2="-5.08" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="0.508" x2="-5.08" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-0.508" x2="-5.08" y2="-1.5748" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="0.508" x2="-5.08" y2="-0.508" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-5.08" y1="-1.6002" x2="5.08" y2="-1.6002" width="0.0508" layer="21"/>
+<smd name="1" x="-4.445" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="16" x="-4.445" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="2" x="-3.175" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="3" x="-1.905" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="15" x="-3.175" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="14" x="-1.905" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="4" x="-0.635" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="13" x="-0.635" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="5" x="0.635" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="12" x="0.635" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="6" x="1.905" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="7" x="3.175" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="11" x="1.905" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="10" x="3.175" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="8" x="4.445" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="9" x="4.445" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<text x="-6.35" y="0" size="0.8128" layer="25" ratio="15" rot="R270" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-0.889" y1="1.9558" x2="-0.381" y2="3.0988" layer="51"/>
+<rectangle x1="-4.699" y1="-3.0988" x2="-4.191" y2="-1.9558" layer="51"/>
+<rectangle x1="-3.429" y1="-3.0988" x2="-2.921" y2="-1.9558" layer="51"/>
+<rectangle x1="-2.159" y1="-3.0734" x2="-1.651" y2="-1.9304" layer="51"/>
+<rectangle x1="-0.889" y1="-3.0988" x2="-0.381" y2="-1.9558" layer="51"/>
+<rectangle x1="-2.159" y1="1.9558" x2="-1.651" y2="3.0988" layer="51"/>
+<rectangle x1="-3.429" y1="1.9558" x2="-2.921" y2="3.0988" layer="51"/>
+<rectangle x1="-4.699" y1="1.9558" x2="-4.191" y2="3.0988" layer="51"/>
+<rectangle x1="0.381" y1="-3.0988" x2="0.889" y2="-1.9558" layer="51"/>
+<rectangle x1="1.651" y1="-3.0988" x2="2.159" y2="-1.9558" layer="51"/>
+<rectangle x1="2.921" y1="-3.0988" x2="3.429" y2="-1.9558" layer="51"/>
+<rectangle x1="4.191" y1="-3.0988" x2="4.699" y2="-1.9558" layer="51"/>
+<rectangle x1="0.381" y1="1.9558" x2="0.889" y2="3.0988" layer="51"/>
+<rectangle x1="1.651" y1="1.9558" x2="2.159" y2="3.0988" layer="51"/>
+<rectangle x1="2.921" y1="1.9558" x2="3.429" y2="3.0988" layer="51"/>
+<rectangle x1="4.191" y1="1.9558" x2="4.699" y2="3.0988" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="OPAMP_J">
@@ -4791,6 +4839,29 @@ Vcc-Vee = 26V max, so +/-12V or +15V/-9V</description>
 </technologies>
 </device>
 <device name="T" package="TSSOP16J">
+<connects>
+<connect gate="-SW1" pin="C" pad="1"/>
+<connect gate="-SW1" pin="D" pad="2"/>
+<connect gate="-SW1" pin="S" pad="3"/>
+<connect gate="-SW2" pin="C" pad="16"/>
+<connect gate="-SW2" pin="D" pad="15"/>
+<connect gate="-SW2" pin="S" pad="14"/>
+<connect gate="-SW3" pin="C" pad="9"/>
+<connect gate="-SW3" pin="D" pad="10"/>
+<connect gate="-SW3" pin="S" pad="11"/>
+<connect gate="-SW4" pin="C" pad="8"/>
+<connect gate="-SW4" pin="D" pad="7"/>
+<connect gate="-SW4" pin="S" pad="6"/>
+<connect gate="_PWR" pin="+15V" pad="13"/>
+<connect gate="_PWR" pin="-15V" pad="4"/>
+<connect gate="_PWR" pin="AGND" pad="5"/>
+<connect gate="_WL" pin="VL" pad="12"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="S" package="SO-16">
 <connects>
 <connect gate="-SW1" pin="C" pad="1"/>
 <connect gate="-SW1" pin="D" pad="2"/>
@@ -5523,10 +5594,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R64" library="rcl" deviceset="R-EU_" device="R0402" value="47k"/>
 <part name="R66" library="rcl" deviceset="R-EU_" device="R0402" value="47k"/>
 <part name="R68" library="rcl" deviceset="R-EU_" device="R0402" value="47k"/>
-<part name="IC8" library="joakim" deviceset="DG412-J" device="T" value="DG412-JT"/>
-<part name="IC9" library="joakim" deviceset="DG412-J" device="T" value="DG412-JT"/>
-<part name="IC10" library="joakim" deviceset="DG412-J" device="T" value="DG412-JT"/>
-<part name="IC11" library="joakim" deviceset="DG412-J" device="T" value="DG412-JT"/>
+<part name="IC8" library="joakim" deviceset="DG412-J" device="S" value="DG412-JS"/>
+<part name="IC9" library="joakim" deviceset="DG412-J" device="S" value="DG412-JS"/>
+<part name="IC10" library="joakim" deviceset="DG412-J" device="S" value="DG412-JS"/>
+<part name="IC11" library="joakim" deviceset="DG412-J" device="S" value="DG412-JS"/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0402" value="47k"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0402" value="47k"/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0402" value="47k"/>
@@ -5679,6 +5750,8 @@ clipping in filter</text>
 is inverting!</text>
 <text x="-7.62" y="12.7" size="1.778" layer="97">Add to increase
 gain for noise</text>
+<text x="134.62" y="101.6" size="3.81" layer="91">SOIC16 version available as Pre-order at
+JLCPCB, half price or less than TSSOP</text>
 </plain>
 <instances>
 <instance part="R8" gate="G$1" x="-15.24" y="63.5" smashed="yes">
