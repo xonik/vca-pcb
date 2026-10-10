@@ -5739,18 +5739,13 @@ here</text>
 <text x="279.4" y="-76.2" size="1.778" layer="97">NB: FX
 is inv
 here</text>
-<text x="-152.4" y="78.74" size="3.81" layer="91">1.2: 2 x 16p instead of 1 x 32p
-1.3: ext input to output B, to add
-SVF output, mixed here to get clipping BEFORE
-Juno filter
-1.4: Error in out b gain, was double. Also added 
-attenuation of input to prevent 
-clipping in filter</text>
+<text x="-152.4" y="78.74" size="3.81" layer="91">R70 - noise gain: Decide value before
+ordering instead of having this.</text>
 <text x="106.68" y="-66.04" size="1.778" layer="91">NB: SVF Chain
 is inverting!</text>
 <text x="-7.62" y="12.7" size="1.778" layer="97">Add to increase
 gain for noise</text>
-<text x="134.62" y="101.6" size="3.81" layer="91">SOIC16 version available as Pre-order at
+<text x="-152.4" y="96.52" size="3.81" layer="91">SOIC16 version available as Pre-order at
 JLCPCB, half price or less than TSSOP</text>
 </plain>
 <instances>
