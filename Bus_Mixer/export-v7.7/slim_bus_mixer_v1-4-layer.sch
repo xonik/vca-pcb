@@ -7948,9 +7948,9 @@ JLCPCB, half price or less than TSSOP</text>
 <wire x1="172.72" y1="73.66" x2="172.72" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="246.38" y="-147.32" size="1.778" layer="95"/>
-<wire x1="264.16" y1="-147.32" x2="241.3" y2="-147.32" width="0.1524" layer="91"/>
-<pinref part="R84" gate="G$1" pin="2"/>
+<label x="246.38" y="-144.78" size="1.778" layer="95"/>
+<wire x1="264.16" y1="-144.78" x2="241.3" y2="-144.78" width="0.1524" layer="91"/>
+<pinref part="R83" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="DIG_2_BUS_B" class="0">
@@ -7960,9 +7960,9 @@ JLCPCB, half price or less than TSSOP</text>
 <pinref part="IC8" gate="-SW3" pin="C"/>
 </segment>
 <segment>
-<label x="246.38" y="-149.86" size="1.778" layer="95"/>
-<wire x1="264.16" y1="-149.86" x2="241.3" y2="-149.86" width="0.1524" layer="91"/>
-<pinref part="R85" gate="G$1" pin="2"/>
+<label x="246.38" y="-170.18" size="1.778" layer="95"/>
+<wire x1="264.16" y1="-170.18" x2="241.3" y2="-170.18" width="0.1524" layer="91"/>
+<pinref part="R92" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="DIG_3_BUS_B" class="0">
@@ -7972,9 +7972,9 @@ JLCPCB, half price or less than TSSOP</text>
 <pinref part="IC9" gate="-SW2" pin="C"/>
 </segment>
 <segment>
-<label x="246.38" y="-177.8" size="1.778" layer="95"/>
-<wire x1="264.16" y1="-177.8" x2="241.3" y2="-177.8" width="0.1524" layer="91"/>
-<pinref part="R95" gate="G$1" pin="2"/>
+<label x="246.38" y="-165.1" size="1.778" layer="95"/>
+<wire x1="264.16" y1="-165.1" x2="241.3" y2="-165.1" width="0.1524" layer="91"/>
+<pinref part="R90" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="DIG_3_BUS_A" class="0">
@@ -7985,9 +7985,9 @@ JLCPCB, half price or less than TSSOP</text>
 <wire x1="172.72" y1="55.88" x2="210.82" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="246.38" y="-175.26" size="1.778" layer="95"/>
-<wire x1="264.16" y1="-175.26" x2="241.3" y2="-175.26" width="0.1524" layer="91"/>
-<pinref part="R94" gate="G$1" pin="2"/>
+<label x="246.38" y="-147.32" size="1.778" layer="95"/>
+<wire x1="264.16" y1="-147.32" x2="241.3" y2="-147.32" width="0.1524" layer="91"/>
+<pinref part="R84" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="DIG_1_BUS_A" class="0">
@@ -8010,9 +8010,9 @@ JLCPCB, half price or less than TSSOP</text>
 <pinref part="IC8" gate="-SW2" pin="C"/>
 </segment>
 <segment>
-<label x="246.38" y="-144.78" size="1.778" layer="95"/>
-<wire x1="264.16" y1="-144.78" x2="241.3" y2="-144.78" width="0.1524" layer="91"/>
-<pinref part="R83" gate="G$1" pin="2"/>
+<label x="246.38" y="-172.72" size="1.778" layer="95"/>
+<wire x1="264.16" y1="-172.72" x2="241.3" y2="-172.72" width="0.1524" layer="91"/>
+<pinref part="R93" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="DIG_4_BUS_B" class="0">
@@ -8022,9 +8022,9 @@ JLCPCB, half price or less than TSSOP</text>
 <pinref part="IC9" gate="-SW3" pin="C"/>
 </segment>
 <segment>
-<label x="246.38" y="-182.88" size="1.778" layer="95"/>
-<wire x1="264.16" y1="-182.88" x2="241.3" y2="-182.88" width="0.1524" layer="91"/>
-<pinref part="R97" gate="G$1" pin="2"/>
+<label x="246.38" y="-167.64" size="1.778" layer="95"/>
+<wire x1="264.16" y1="-167.64" x2="241.3" y2="-167.64" width="0.1524" layer="91"/>
+<pinref part="R91" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="DIG_4_BUS_A" class="0">
@@ -8035,9 +8035,9 @@ JLCPCB, half price or less than TSSOP</text>
 <wire x1="172.72" y1="38.1" x2="172.72" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="246.38" y="-180.34" size="1.778" layer="95"/>
-<wire x1="264.16" y1="-180.34" x2="241.3" y2="-180.34" width="0.1524" layer="91"/>
-<pinref part="R96" gate="G$1" pin="2"/>
+<label x="246.38" y="-149.86" size="1.778" layer="95"/>
+<wire x1="264.16" y1="-149.86" x2="241.3" y2="-149.86" width="0.1524" layer="91"/>
+<pinref part="R85" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="DIG_5_BUS_B" class="0">
@@ -8047,9 +8047,9 @@ JLCPCB, half price or less than TSSOP</text>
 <pinref part="IC10" gate="-SW2" pin="C"/>
 </segment>
 <segment>
-<label x="246.38" y="-172.72" size="1.778" layer="95"/>
-<wire x1="264.16" y1="-172.72" x2="241.3" y2="-172.72" width="0.1524" layer="91"/>
-<pinref part="R93" gate="G$1" pin="2"/>
+<label x="246.38" y="-152.4" size="1.778" layer="95"/>
+<wire x1="264.16" y1="-152.4" x2="241.3" y2="-152.4" width="0.1524" layer="91"/>
+<pinref part="R86" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="DIG_5_BUS_A" class="0">
@@ -8060,9 +8060,9 @@ JLCPCB, half price or less than TSSOP</text>
 <wire x1="172.72" y1="20.32" x2="172.72" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="246.38" y="-170.18" size="1.778" layer="95"/>
-<wire x1="264.16" y1="-170.18" x2="241.3" y2="-170.18" width="0.1524" layer="91"/>
-<pinref part="R92" gate="G$1" pin="2"/>
+<label x="246.38" y="-175.26" size="1.778" layer="95"/>
+<wire x1="264.16" y1="-175.26" x2="241.3" y2="-175.26" width="0.1524" layer="91"/>
+<pinref part="R94" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="DIG_6_BUS_B" class="0">
@@ -8072,9 +8072,9 @@ JLCPCB, half price or less than TSSOP</text>
 <pinref part="IC10" gate="-SW3" pin="C"/>
 </segment>
 <segment>
-<label x="246.38" y="-167.64" size="1.778" layer="95"/>
-<wire x1="264.16" y1="-167.64" x2="241.3" y2="-167.64" width="0.1524" layer="91"/>
-<pinref part="R91" gate="G$1" pin="2"/>
+<label x="246.38" y="-154.94" size="1.778" layer="95"/>
+<wire x1="264.16" y1="-154.94" x2="241.3" y2="-154.94" width="0.1524" layer="91"/>
+<pinref part="R87" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="DIG_6_BUS_A" class="0">
@@ -8085,9 +8085,9 @@ JLCPCB, half price or less than TSSOP</text>
 <wire x1="172.72" y1="2.54" x2="172.72" y2="0" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="246.38" y="-165.1" size="1.778" layer="95"/>
-<wire x1="264.16" y1="-165.1" x2="241.3" y2="-165.1" width="0.1524" layer="91"/>
-<pinref part="R90" gate="G$1" pin="2"/>
+<label x="246.38" y="-177.8" size="1.778" layer="95"/>
+<wire x1="264.16" y1="-177.8" x2="241.3" y2="-177.8" width="0.1524" layer="91"/>
+<pinref part="R95" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="DIG_7_BUS_A" class="0">
@@ -8098,9 +8098,9 @@ JLCPCB, half price or less than TSSOP</text>
 <wire x1="172.72" y1="-20.32" x2="172.72" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="246.38" y="-152.4" size="1.778" layer="95"/>
-<wire x1="264.16" y1="-152.4" x2="241.3" y2="-152.4" width="0.1524" layer="91"/>
-<pinref part="R86" gate="G$1" pin="2"/>
+<label x="246.38" y="-180.34" size="1.778" layer="95"/>
+<wire x1="264.16" y1="-180.34" x2="241.3" y2="-180.34" width="0.1524" layer="91"/>
+<pinref part="R96" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="DIG_7_BUS_B" class="0">
@@ -8110,9 +8110,9 @@ JLCPCB, half price or less than TSSOP</text>
 <pinref part="IC11" gate="-SW2" pin="C"/>
 </segment>
 <segment>
-<label x="246.38" y="-154.94" size="1.778" layer="95"/>
-<wire x1="264.16" y1="-154.94" x2="241.3" y2="-154.94" width="0.1524" layer="91"/>
-<pinref part="R87" gate="G$1" pin="2"/>
+<label x="246.38" y="-157.48" size="1.778" layer="95"/>
+<wire x1="264.16" y1="-157.48" x2="241.3" y2="-157.48" width="0.1524" layer="91"/>
+<pinref part="R88" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="DIG_8_BUS_A" class="0">
@@ -8123,9 +8123,9 @@ JLCPCB, half price or less than TSSOP</text>
 <wire x1="172.72" y1="-38.1" x2="172.72" y2="-40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="246.38" y="-157.48" size="1.778" layer="95"/>
-<wire x1="264.16" y1="-157.48" x2="241.3" y2="-157.48" width="0.1524" layer="91"/>
-<pinref part="R88" gate="G$1" pin="2"/>
+<label x="246.38" y="-182.88" size="1.778" layer="95"/>
+<wire x1="264.16" y1="-182.88" x2="241.3" y2="-182.88" width="0.1524" layer="91"/>
+<pinref part="R97" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="DIG_8_BUS_B" class="0">
