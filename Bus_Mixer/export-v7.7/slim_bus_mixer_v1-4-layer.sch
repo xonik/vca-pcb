@@ -6333,22 +6333,6 @@ JLCPCB, half price or less than TSSOP</text>
 <attribute name="VALUE" x="243.84" y="45.72" size="1.778" layer="96"/>
 </instance>
 <instance part="IC2" gate="P" x="132.08" y="-167.64" smashed="yes"/>
-<instance part="IC4" gate="A" x="261.62" y="15.24" smashed="yes">
-<attribute name="NAME" x="264.16" y="18.415" size="1.778" layer="95"/>
-<attribute name="VALUE" x="264.16" y="10.16" size="1.778" layer="96"/>
-</instance>
-<instance part="IC4" gate="B" x="261.62" y="-55.88" smashed="yes">
-<attribute name="NAME" x="264.16" y="-52.705" size="1.778" layer="95"/>
-<attribute name="VALUE" x="264.16" y="-60.96" size="1.778" layer="96"/>
-</instance>
-<instance part="IC4" gate="C" x="261.62" y="-88.9" smashed="yes">
-<attribute name="NAME" x="264.16" y="-85.725" size="1.778" layer="95"/>
-<attribute name="VALUE" x="264.16" y="-93.98" size="1.778" layer="96"/>
-</instance>
-<instance part="IC4" gate="D" x="261.62" y="-17.78" smashed="yes">
-<attribute name="NAME" x="264.16" y="-14.605" size="1.778" layer="95"/>
-<attribute name="VALUE" x="264.16" y="-22.86" size="1.778" layer="96"/>
-</instance>
 <instance part="IC4" gate="P" x="134.62" y="-167.64" smashed="yes"/>
 <instance part="C23" gate="G$1" x="170.18" y="-170.18" smashed="yes" rot="R180">
 <attribute name="NAME" x="166.116" y="-165.481" size="1.778" layer="95" rot="R180"/>
@@ -6614,6 +6598,22 @@ JLCPCB, half price or less than TSSOP</text>
 <attribute name="NAME" x="123.19" y="-133.5786" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="123.19" y="-128.778" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="IC4" gate="A" x="261.62" y="-88.9" smashed="yes">
+<attribute name="NAME" x="264.16" y="-85.725" size="1.778" layer="95"/>
+<attribute name="VALUE" x="264.16" y="-93.98" size="1.778" layer="96"/>
+</instance>
+<instance part="IC4" gate="C" x="261.62" y="15.24" smashed="yes">
+<attribute name="NAME" x="264.16" y="18.415" size="1.778" layer="95"/>
+<attribute name="VALUE" x="264.16" y="10.16" size="1.778" layer="96"/>
+</instance>
+<instance part="IC4" gate="D" x="261.62" y="-55.88" smashed="yes">
+<attribute name="NAME" x="264.16" y="-52.705" size="1.778" layer="95"/>
+<attribute name="VALUE" x="264.16" y="-60.96" size="1.778" layer="96"/>
+</instance>
+<instance part="IC4" gate="B" x="261.62" y="-17.78" smashed="yes">
+<attribute name="NAME" x="264.16" y="-14.605" size="1.778" layer="95"/>
+<attribute name="VALUE" x="264.16" y="-22.86" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6712,12 +6712,12 @@ JLCPCB, half price or less than TSSOP</text>
 <segment>
 <wire x1="251.46" y1="12.7" x2="254" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="GND27" gate="1" pin="GND"/>
-<pinref part="IC4" gate="A" pin="+IN"/>
+<pinref part="IC4" gate="C" pin="+IN"/>
 </segment>
 <segment>
 <wire x1="251.46" y1="-20.32" x2="254" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="GND28" gate="1" pin="GND"/>
-<pinref part="IC4" gate="D" pin="+IN"/>
+<pinref part="IC4" gate="B" pin="+IN"/>
 </segment>
 <segment>
 <pinref part="R73" gate="G$1" pin="1"/>
@@ -6732,12 +6732,12 @@ JLCPCB, half price or less than TSSOP</text>
 <segment>
 <wire x1="251.46" y1="-58.42" x2="254" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="GND22" gate="1" pin="GND"/>
-<pinref part="IC4" gate="B" pin="+IN"/>
+<pinref part="IC4" gate="D" pin="+IN"/>
 </segment>
 <segment>
 <wire x1="251.46" y1="-91.44" x2="254" y2="-91.44" width="0.1524" layer="91"/>
 <pinref part="GND23" gate="1" pin="GND"/>
-<pinref part="IC4" gate="C" pin="+IN"/>
+<pinref part="IC4" gate="A" pin="+IN"/>
 </segment>
 <segment>
 <pinref part="R75" gate="G$1" pin="1"/>
@@ -7422,11 +7422,11 @@ JLCPCB, half price or less than TSSOP</text>
 <wire x1="182.88" y1="-7.62" x2="185.42" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="185.42" y="-7.62"/>
 <wire x1="185.42" y1="-15.24" x2="246.38" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="D" pin="-IN"/>
 <wire x1="251.46" y1="-7.62" x2="251.46" y2="2.54" width="0.1524" layer="91"/>
 <junction x="251.46" y="-7.62"/>
 <pinref part="C25" gate="G$1" pin="1"/>
 <wire x1="251.46" y1="2.54" x2="256.54" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="IC4" gate="B" pin="-IN"/>
 </segment>
 </net>
 <net name="BUS_A" class="0">
@@ -7468,11 +7468,11 @@ JLCPCB, half price or less than TSSOP</text>
 <junction x="175.26" y="-7.62"/>
 <wire x1="175.26" y1="-12.7" x2="220.98" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="-12.7" x2="220.98" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="A" pin="-IN"/>
 <wire x1="251.46" y1="25.4" x2="251.46" y2="35.56" width="0.1524" layer="91"/>
 <junction x="251.46" y="25.4"/>
 <pinref part="C24" gate="G$1" pin="1"/>
 <wire x1="251.46" y1="35.56" x2="256.54" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="IC4" gate="C" pin="-IN"/>
 </segment>
 </net>
 <net name="SUM_A" class="0">
@@ -7484,11 +7484,11 @@ JLCPCB, half price or less than TSSOP</text>
 <junction x="271.78" y="15.24"/>
 <label x="274.32" y="15.24" size="1.778" layer="95"/>
 <wire x1="271.78" y1="15.24" x2="287.02" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="A" pin="OUT"/>
 <pinref part="C24" gate="G$1" pin="2"/>
 <wire x1="264.16" y1="35.56" x2="271.78" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="35.56" x2="271.78" y2="25.4" width="0.1524" layer="91"/>
 <junction x="271.78" y="25.4"/>
+<pinref part="IC4" gate="C" pin="OUT"/>
 </segment>
 <segment>
 <pinref part="R37" gate="G$1" pin="1"/>
@@ -7747,11 +7747,11 @@ JLCPCB, half price or less than TSSOP</text>
 <junction x="271.78" y="-17.78"/>
 <label x="274.32" y="-17.78" size="1.778" layer="95"/>
 <wire x1="271.78" y1="-17.78" x2="287.02" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="D" pin="OUT"/>
 <pinref part="C25" gate="G$1" pin="2"/>
 <wire x1="264.16" y1="2.54" x2="271.78" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="2.54" x2="271.78" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="271.78" y="-7.62"/>
+<pinref part="IC4" gate="B" pin="OUT"/>
 </segment>
 <segment>
 <pinref part="R28" gate="G$1" pin="1"/>
@@ -8149,11 +8149,11 @@ JLCPCB, half price or less than TSSOP</text>
 <junction x="271.78" y="-88.9"/>
 <label x="274.32" y="-88.9" size="1.778" layer="95"/>
 <wire x1="271.78" y1="-88.9" x2="287.02" y2="-88.9" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="C" pin="OUT"/>
 <pinref part="C27" gate="G$1" pin="2"/>
 <wire x1="264.16" y1="-68.58" x2="271.78" y2="-68.58" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="-68.58" x2="271.78" y2="-78.74" width="0.1524" layer="91"/>
 <junction x="271.78" y="-78.74"/>
+<pinref part="IC4" gate="A" pin="OUT"/>
 </segment>
 <segment>
 <pinref part="R31" gate="G$1" pin="1"/>
@@ -8170,11 +8170,11 @@ JLCPCB, half price or less than TSSOP</text>
 <junction x="271.78" y="-55.88"/>
 <label x="274.32" y="-55.88" size="1.778" layer="95"/>
 <wire x1="271.78" y1="-55.88" x2="287.02" y2="-55.88" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="B" pin="OUT"/>
 <pinref part="C26" gate="G$1" pin="2"/>
 <wire x1="264.16" y1="-35.56" x2="271.78" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="-35.56" x2="271.78" y2="-45.72" width="0.1524" layer="91"/>
 <junction x="271.78" y="-45.72"/>
+<pinref part="IC4" gate="D" pin="OUT"/>
 </segment>
 <segment>
 <pinref part="R34" gate="G$1" pin="1"/>
@@ -8385,11 +8385,11 @@ JLCPCB, half price or less than TSSOP</text>
 <wire x1="238.76" y1="-58.42" x2="246.38" y2="-58.42" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="-58.42" x2="246.38" y2="-53.34" width="0.1524" layer="91"/>
 <junction x="246.38" y="-53.34"/>
-<pinref part="IC4" gate="B" pin="-IN"/>
 <wire x1="251.46" y1="-45.72" x2="251.46" y2="-35.56" width="0.1524" layer="91"/>
 <junction x="251.46" y="-45.72"/>
 <pinref part="C26" gate="G$1" pin="1"/>
 <wire x1="251.46" y1="-35.56" x2="256.54" y2="-35.56" width="0.1524" layer="91"/>
+<pinref part="IC4" gate="D" pin="-IN"/>
 </segment>
 </net>
 <net name="BUS_FX_B" class="0">
@@ -8413,11 +8413,11 @@ JLCPCB, half price or less than TSSOP</text>
 <junction x="246.38" y="-86.36"/>
 <wire x1="185.42" y1="-48.26" x2="185.42" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="-86.36" x2="246.38" y2="-86.36" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="C" pin="-IN"/>
 <wire x1="251.46" y1="-78.74" x2="251.46" y2="-68.58" width="0.1524" layer="91"/>
 <junction x="251.46" y="-78.74"/>
 <pinref part="C27" gate="G$1" pin="1"/>
 <wire x1="251.46" y1="-68.58" x2="256.54" y2="-68.58" width="0.1524" layer="91"/>
+<pinref part="IC4" gate="A" pin="-IN"/>
 </segment>
 </net>
 <net name="SUM2" class="0">
